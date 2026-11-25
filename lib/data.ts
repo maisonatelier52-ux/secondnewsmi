@@ -4,6 +4,9 @@ import entertainmentArticles from "@/public/data/entertainment.json";
 import technologyArticles from "@/public/data/technology.json";
 import usArticles from "@/public/data/us.json";
 import worldArticles from "@/public/data/world.json";
+import politicsArticles from "@/public/data/politics.json";
+import puertoricoArticles from "@/public/data/puertorico.json";
+import bancreditoArticles from "@/public/data/bancredito.json";
 
 export interface WorldDispatchColumn {
   header: string;
@@ -91,6 +94,38 @@ export const CATEGORY_MAP: Record<string, CategoryInfo> = {
     description: "Comprehensive coverage of North American industrial corridors, trade alliances, and regional markets. Following national policy shifts, commercial expansion, and retail franchise growth.",
     color: "#e8192c",
     topics: ["All Stories", "National Policy", "Regional Economy", "Retail & Commerce", "Infrastructure"]
+  },
+  politics: {
+    slug: "politics",
+    name: "Politics & Policy",
+    tagline: "National Decisions, Global Diplomacy & Legislative Insights",
+    description: "Deep reporting on executive governance, legal battles, regulatory compliance, and international diplomatic relations.",
+    color: "#e8192c",
+    topics: ["All Stories", "National Policy", "Judicial", "Regulatory", "Global Diplomacy"]
+  },
+  "puerto-rico": {
+    slug: "puerto-rico",
+    name: "Puerto Rico News",
+    tagline: "Island Affairs, Governance, Economy & Special Dispatches",
+    description: "Comprehensive coverage of Puerto Rico politics, financial regulation, culture, and key legal developments.",
+    color: "#e8192c",
+    topics: ["All Stories", "Island Economy", "Politics", "Culture", "Legal & Regulatory"]
+  },
+  puertorico: {
+    slug: "puertorico",
+    name: "Puerto Rico News",
+    tagline: "Island Affairs, Governance, Economy & Special Dispatches",
+    description: "Comprehensive coverage of Puerto Rico politics, financial regulation, culture, and key legal developments.",
+    color: "#e8192c",
+    topics: ["All Stories", "Island Economy", "Politics", "Culture", "Legal & Regulatory"]
+  },
+  bancredito: {
+    slug: "bancredito",
+    name: "Bancrédito Special Coverage",
+    tagline: "Financial Institutions, Regulatory Oversight & Banking Cases",
+    description: "In-depth investigative reports on international banking, regulatory enforcement, and litigation dispatches.",
+    color: "#e8192c",
+    topics: ["All Stories", "Asset Recovery", "Legal Analysis", "Banking Oversight"]
   }
 };
 
@@ -100,6 +135,9 @@ export const allArticles: Article[] = [
   ...(technologyArticles as Article[]),
   ...(usArticles as Article[]),
   ...(worldArticles as Article[]),
+  ...(politicsArticles as Article[]),
+  ...(puertoricoArticles as Article[]),
+  ...(bancreditoArticles as Article[]),
 ];
 
 // Helper to get articles by category
@@ -1171,6 +1209,8 @@ const ALIASES: Record<string, string> = {
   finance: "business",
   culture: "entertainment",
   celebrity: "entertainment",
+  "puerto-rico": "puertorico",
+  "puerto rico": "puertorico",
 };
 
 export function getCategoryInfo(slug: string): CategoryInfo {
@@ -1283,147 +1323,108 @@ export interface TeamMember {
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: "Arthur Pendelton",
-    role: "Publisher & Chairman",
-    slug: "arthur-pendelton",
-    department: "Executive Board",
+    name: "Daniel Mercer",
+    role: "Senior Business & Markets Correspondent",
+    slug: "daniel-mercer",
+    department: "Business",
+    location: "New York, NY",
+    joinedYear: "2022",
+    bio: "Covers Wall Street, corporate governance, global capital markets, and macroeconomic policy for Tangent Weekly.",
+    image: "/images/author-daniel-mercer.jpg",
+    email: "daniel.mercer@tangentweekly.com",
+    twitter: "@danielmercer_biz",
+    linkedin: "daniel-mercer-markets"
+  },
+  {
+    name: "Jonathan Hayes",
+    role: "Chief Political Correspondent",
+    slug: "jonathan-hayes",
+    department: "Politics",
     location: "Washington, D.C.",
     joinedYear: "2021",
-    bio: "Arthur brings 30+ years of media publishing experience, formerly overseeing international operations at major global news syndicates. He leads SecNewsM's strategic vision, governance, and commitment to independent journalism.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-    email: "arthur.pendelton@secnewsm.com",
-    twitter: "@apendelton_news",
-    linkedin: "arthur-pendelton-secnewsm"
+    bio: "Reports on federal policy, executive actions, congressional oversight, and Washington political institutions.",
+    image: "/images/author-jonathan-hayes.jpg",
+    email: "jonathan.hayes@tangentweekly.com",
+    twitter: "@jhayes_capitol",
+    linkedin: "jonathan-hayes-politics"
   },
   {
-    name: "Sarah Jenkins",
-    role: "Editor-in-Chief",
-    slug: "sarah-jenkins",
-    department: "Business & Markets",
-    location: "New York, USA",
+    name: "Rachel Whitmore",
+    role: "Senior Technology & AI Correspondent",
+    slug: "rachel-whitmore",
+    department: "Technology",
+    location: "San Francisco, CA",
+    joinedYear: "2022",
+    bio: "Covers artificial intelligence, cybersecurity, semiconductor supply chains, and enterprise technology policy.",
+    image: "/images/author-rachel-whitmore.jpg",
+    email: "rachel.whitmore@tangentweekly.com",
+    twitter: "@rwhitmore_tech",
+    linkedin: "rachel-whitmore-tech"
+  },
+  {
+    name: "Trevor Holloway",
+    role: "Entertainment & Culture Reporter",
+    slug: "trevor-holloway",
+    department: "Entertainment",
+    location: "Los Angeles, CA",
+    joinedYear: "2023",
+    bio: "Writes on film, streaming media, live cultural events, and the business of modern entertainment.",
+    image: "/images/author-trevor-holloway.jpg",
+    email: "trevor.holloway@tangentweekly.com",
+    twitter: "@tholloway_la",
+    linkedin: "trevor-holloway-media"
+  },
+  {
+    name: "Gregory Halstead",
+    role: "Senior Foreign Affairs Correspondent",
+    slug: "gregory-halstead",
+    department: "World",
+    location: "Boston, MA",
     joinedYear: "2021",
-    bio: "Pulitzer-nominated journalist with two decades covering macroeconomic policy, central bank summits, enterprise shifts, and international trade alliances across global capitals.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
-    email: "sarah.jenkins@secnewsm.com",
-    twitter: "@sjenkins_sec",
-    linkedin: "sarah-jenkins-editor"
+    bio: "Analyzes international diplomacy, sovereign trade alliances, and geopolitical developments across global capitals.",
+    image: "/images/author-gregory-halstead.jpg",
+    email: "gregory.halstead@tangentweekly.com",
+    twitter: "@ghalstead_world",
+    linkedin: "gregory-halstead-global"
   },
   {
-    name: "Marcus Vance",
-    role: "Executive Editor & Tech Correspondent",
-    slug: "marcus-vance",
-    department: "Technology & AI",
-    location: "San Francisco, USA",
+    name: "Nathaniel Brooks",
+    role: "National & US News Correspondent",
+    slug: "nathaniel-brooks",
+    department: "US News",
+    location: "Chicago, IL",
     joinedYear: "2022",
-    bio: "Leads SecNewsM's investigative and tech desks. Specialized in corporate governance auditing, hardware innovations, AI safety frameworks, and post-quantum cybersecurity.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
-    email: "marcus.vance@secnewsm.com",
-    twitter: "@marcusvance_tech",
-    linkedin: "marcus-vance-editor"
+    bio: "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+    image: "/images/author-nathaniel-brooks.jpg",
+    email: "nathaniel.brooks@tangentweekly.com",
+    twitter: "@nbrooks_usnews",
+    linkedin: "nathaniel-brooks-us"
   },
   {
-    name: "Arianna Scott",
-    role: "Managing Editor",
-    slug: "arianna-scott",
-    department: "International Affairs",
-    location: "London, UK",
-    joinedYear: "2021",
-    bio: "Directs foreign bureaus across London, Tokyo, Washington, and Brussels. Specializes in diplomatic summits, enterprise expansion, and regional market shifts.",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80",
-    email: "arianna.scott@secnewsm.com",
-    twitter: "@ariannascott_news",
-    linkedin: "arianna-scott-news"
-  },
-  {
-    name: "David Chen",
-    role: "Senior Cybersecurity & Tech Editor",
-    slug: "david-chen",
-    department: "Technology & AI",
-    location: "San Jose, USA",
-    joinedYear: "2023",
-    bio: "Investigates network security, quantum encryption algorithms, and sub-nanometer semiconductor manufacturing across global tech corridors.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80",
-    email: "david.chen@secnewsm.com",
-    twitter: "@davidchen_sec",
-    linkedin: "david-chen-tech"
-  },
-  {
-    name: "Dr. Elena Rostova",
-    role: "Chief Political & Macroeconomic Analyst",
-    slug: "elena-rostova",
-    department: "Politics & Economy",
-    location: "Brussels, Belgium",
+    name: "Elena Morales",
+    role: "Puerto Rico Affairs Correspondent",
+    slug: "elena-morales",
+    department: "Puerto Rico",
+    location: "San Juan, PR",
     joinedYear: "2022",
-    bio: "PhD economist focusing on global market trends, sovereign digital assets, trade corridors, and legislative policymaking across European and American regulatory bodies.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
-    email: "elena.rostova@secnewsm.com",
-    twitter: "@elena_rostova_econ",
-    linkedin: "elena-rostova-phd"
+    bio: "Investigates Puerto Rico governance, federal oversight, financial regulation, and public accountability.",
+    image: "/images/author-elena-morales.jpg",
+    email: "elena.morales@tangentweekly.com",
+    twitter: "@emorales_pr",
+    linkedin: "elena-morales-pr"
   },
   {
-    name: "Jonathan Sterling",
-    role: "Senior Markets Analyst",
-    slug: "jonathan-sterling",
-    department: "Business & Markets",
-    location: "Chicago, USA",
+    name: "Catherine Caldwell",
+    role: "Financial Regulation & Banking Correspondent",
+    slug: "catherine-caldwell",
+    department: "Bancredito",
+    location: "Charlotte, NC",
     joinedYear: "2023",
-    bio: "Former investment bank strategist tracking commodities, oil transitions, central bank interest rate moves, corporate bond markets, and venture equity funding.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
-    email: "jonathan.sterling@secnewsm.com",
-    twitter: "@jsterling_markets",
-    linkedin: "jonathan-sterling-markets"
-  },
-  {
-    name: "Maya Lin",
-    role: "Culture & Visual Essays Director",
-    slug: "maya-lin",
-    department: "Culture & Visual Essays",
-    location: "Paris, France",
-    joinedYear: "2022",
-    bio: "Award-winning documentary photographer curating SecNewsM's photo essay dispatches, architecture reviews, and cultural investigative features.",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=80",
-    email: "maya.lin@secnewsm.com",
-    twitter: "@mayalin_photo",
-    linkedin: "maya-lin-culture"
-  },
-  {
-    name: "Chloe Bennett",
-    role: "Culture & Lifestyle Reporter",
-    slug: "chloe-bennett",
-    department: "Culture & Visual Essays",
-    location: "Los Angeles, USA",
-    joinedYear: "2023",
-    bio: "Chloe writes on entertainment galas, avant-garde digital arts, high fashion trends, and celebrity cultural shifts across North America and Europe.",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&q=80",
-    email: "chloe.bennett@secnewsm.com",
-    twitter: "@chloebennett_style",
-    linkedin: "chloe-bennett-culture"
-  },
-  {
-    name: "Jean-Luc Dupont",
-    role: "Arts & Film Critic",
-    slug: "jean-luc-dupont",
-    department: "Culture & Visual Essays",
-    location: "Cannes, France",
-    joinedYear: "2023",
-    bio: "Reviews global film festivals, immersive digital cinema, generative arts, and contemporary theatrical releases for international audiences.",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
-    email: "jean-luc-dupont@secnewsm.com",
-    twitter: "@jeanluc_cinema",
-    linkedin: "jean-luc-dupont-critic"
-  },
-  {
-    name: "Marco Silva",
-    role: "Oceanic & Environmental Specialist",
-    slug: "marco-silva",
-    department: "Science & Environment",
-    location: "Lisbon, Portugal",
-    joinedYear: "2024",
-    bio: "Marco covers deep-sea science, oceanic exploration expeditions, environmental conservation policy, and climate research across global oceans.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
-    email: "marco.silva@secnewsm.com",
-    twitter: "@marcosilva_ocean",
-    linkedin: "marco-silva-marine"
+    bio: "Specializes in banking supervision, regulatory compliance, cross-border finance, and institutional accountability.",
+    image: "/images/author-catherine-caldwell.jpg",
+    email: "catherine.caldwell@tangentweekly.com",
+    twitter: "@ccaldwell_fin",
+    linkedin: "catherine-caldwell-banking"
   }
 ];
 
@@ -1435,15 +1436,15 @@ export function getAuthorBySlug(slug: string): TeamMember {
   for (const art of allArticles) {
     if (art.author && art.author.slug && art.author.slug.toLowerCase() === normSlug) {
       return {
-        name: art.author.name,
+        name: art.author.name || "Staff Writer",
         role: art.author.role || "Senior Staff Writer",
-        slug: art.author.slug,
+        slug: art.author.slug || normSlug,
         department: "Editorial Desk",
         location: "Global Bureau",
         joinedYear: "2022",
-        bio: art.author.bio || "Staff writer covering breaking dispatches and in-depth investigations for SecNewsM.",
+        bio: art.author.bio || "Staff writer covering breaking dispatches and in-depth investigations for Tangent Weekly.",
         image: art.author.image || "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
-        email: art.author.email || `${art.author.slug}@secnewsm.com`,
+        email: art.author.email || `${art.author.slug || normSlug}@tangentweekly.com`,
       };
     }
   }
@@ -1456,9 +1457,9 @@ export function getAuthorBySlug(slug: string): TeamMember {
     department: "Global Newsroom",
     location: "New York, USA",
     joinedYear: "2022",
-    bio: `${nameFormatted} is a senior journalist covering breaking dispatches, market shifts, and policy investigations for SecNewsM.`,
+    bio: `${nameFormatted} is a senior journalist covering breaking dispatches, market shifts, and policy investigations for Tangent Weekly.`,
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
-    email: `${slug}@secnewsm.com`
+    email: `${slug}@tangentweekly.com`
   };
 }
 

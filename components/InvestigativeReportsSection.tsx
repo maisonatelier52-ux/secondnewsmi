@@ -22,17 +22,19 @@ function getCategorySlug(category: string): string {
 
 export default function InvestigativeReportsSection({
   leadArticle,
-  stackArticles,
+  stackArticles = [],
 }: InvestigativeReportsSectionProps) {
+  if (!leadArticle) return null;
+
   const leadCat = getCategorySlug(leadArticle.category);
 
   return (
     <section className="fn-sec5-wrap">
       {/* Header */}
       <div className="fn-sec5-header">
-        <h2 className="fn-sec5-title">Investigative Reports &amp; Special Series</h2>
-        <Link href="/world" className="fn-sec5-sub-link" style={{ textDecoration: "none" }}>
-          View All Investigations →
+        <h2 className="fn-sec5-title">In-Depth &amp; Investigative Reporting</h2>
+        <Link href="/puertorico" className="fn-sec5-sub-link" style={{ textDecoration: "none" }}>
+          View All Reports →
         </Link>
       </div>
 

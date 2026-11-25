@@ -54,10 +54,15 @@ export default function Header({ activeCategory }: HeaderProps) {
 
   const categories = [
     { slug: "business", label: "Business" },
-    { slug: "lifestyle", label: "Lifestyle" },
-    { slug: "travel", label: "Travel" },
-    { slug: "science", label: "Science" },
-    { slug: "technology", label: "Tech" },
+    { slug: "entertainment", label: "Entertainment" },
+    { slug: "technology", label: "Technology" },
+    { slug: "politics", label: "Politics" },
+    { slug: "us", label: "US News" },
+    { slug: "world", label: "World" },
+    { slug: "puertorico", label: "Puerto Rico" },
+    { slug: "bancredito", label: "Bancredito" },
+
+
   ];
 
   const currentTrending = trendingItems[trendingIndex];
@@ -110,7 +115,7 @@ export default function Header({ activeCategory }: HeaderProps) {
                 <path d="M10 6h8v4h-8V6Z" />
               </svg>
             </div>
-            <span className="fn-logo-text">Domain Name</span>
+            <span className="fn-logo-text">Tangent Weekly</span>
           </Link>
         </div>
 
@@ -159,7 +164,7 @@ export default function Header({ activeCategory }: HeaderProps) {
                 <span></span>
                 <span></span>
               </button>
-              <button className="fn-subscribe-btn">Subscribe</button>
+
             </div>
           </div>
         </div>
@@ -178,7 +183,7 @@ export default function Header({ activeCategory }: HeaderProps) {
                 <path d="M10 6h8v4h-8V6Z" />
               </svg>
             </div>
-            <span className="fn-logo-text">Domain Name</span>
+            <span className="fn-logo-text">Tangent Weekly</span>
           </Link>
 
           <button

@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Editorial Policy & Ethics — SecNewsM",
-  description: "Read SecNewsM's editorial code of ethics, newsgathering standards, fact-checking workflows, AI usage guidelines, and corrections policy.",
+  title: "Editorial Policy & Ethics — Tangent Weekly",
+  description: "Read Tangent Weekly's editorial code of ethics, newsgathering standards, fact-checking workflows, AI usage guidelines, and corrections policy.",
 };
 
 export default function EditorialPolicyPage() {
@@ -31,7 +31,7 @@ export default function EditorialPolicyPage() {
               <div>
                 <h1 className="fn-static-title">Editorial Policy & Code of Ethics</h1>
                 <p className="fn-static-subtitle">
-                  The principles, standards, and verification processes that govern every article, dispatch, investigation, and analysis published by SecNewsM.
+                  The principles, standards, and verification processes that govern every article, dispatch, investigation, and analysis published by Tangent Weekly.
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function EditorialPolicyPage() {
                   <span className="fn-static-section-num">01</span> Objectivity & Impartiality
                 </h2>
                 <p>
-                  SecNewsM strives to deliver objective, evidence-based reporting. We do not align with any political party, corporate conglomerate, or ideological movement. News reporting is strictly demarcated from opinion, analysis, and column pieces.
+                  Tangent Weekly strives to deliver objective, evidence-based reporting. We do not align with any political party, corporate conglomerate, or ideological movement. News reporting is strictly demarcated from opinion, analysis, and column pieces.
                 </p>
               </section>
 
@@ -74,7 +74,7 @@ export default function EditorialPolicyPage() {
                   <span className="fn-static-section-num">02</span> Fact-Checking & Verification Standards
                 </h2>
                 <p>
-                  No factual statement is published on SecNewsM without rigorous verification. Factual claims require corroboration by at least two independent primary sources or official documentation (e.g. court filings, regulatory datasets, audited balance sheets, official transcripts).
+                  No factual statement is published on Tangent Weekly without rigorous verification. Factual claims require corroboration by at least two independent primary sources or official documentation (e.g. court filings, regulatory datasets, audited balance sheets, official transcripts).
                 </p>
 
                 <div className="fn-static-box">
@@ -92,7 +92,7 @@ export default function EditorialPolicyPage() {
                   <span className="fn-static-section-num">03</span> Corrections & Clarifications Policy
                 </h2>
                 <p>
-                  When a factual error occurs, SecNewsM corrects it promptly and transparently. We do not unannouncedly alter text or &quot;stealth edit&quot; published stories.
+                  When a factual error occurs, Tangent Weekly corrects it promptly and transparently. We do not unannouncedly alter text or &quot;stealth edit&quot; published stories.
                 </p>
                 <p style={{ marginTop: "10px" }}>
                   Corrections are flagged at the bottom or top of the article with a clear note specifying the nature of the error, the correct information, and the exact timestamp when the correction was applied.
@@ -104,7 +104,7 @@ export default function EditorialPolicyPage() {
                   <span className="fn-static-section-num">04</span> AI & Generative Technology Guidelines
                 </h2>
                 <p>
-                  While SecNewsM utilizes modern technological tools for data sorting, language translation, and archival indexing:
+                  While Tangent Weekly utilizes modern technological tools for data sorting, language translation, and archival indexing:
                 </p>
                 <div className="fn-static-card" style={{ marginTop: "14px" }}>
                   <ul style={{ fontSize: "13.5px", color: "#404040", paddingLeft: "18px", lineHeight: "1.8" }}>
@@ -129,7 +129,7 @@ export default function EditorialPolicyPage() {
                   <span className="fn-static-section-num">06</span> Personal Conflicts of Interest
                 </h2>
                 <p>
-                  SecNewsM journalists may not accept gifts, paid trips, favored financial allocations, or personal favors from subjects of reporting. Any potential conflict of interest must be disclosed immediately to executive editors.
+                  Tangent Weekly journalists may not accept gifts, paid trips, favored financial allocations, or personal favors from subjects of reporting. Any potential conflict of interest must be disclosed immediately to executive editors.
                 </p>
               </section>
             </div>

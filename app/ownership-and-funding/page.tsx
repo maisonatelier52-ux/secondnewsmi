@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ownership & Funding Disclosure — SecNewsM",
-  description: "Read SecNewsM's transparent disclosure regarding corporate ownership, revenue models, financial independence, and advertiser firewalls.",
+  title: "Ownership & Funding Disclosure — Tangent Weekly",
+  description: "Read Tangent Weekly's transparent disclosure regarding corporate ownership, revenue models, financial independence, and advertiser firewalls.",
 };
 
 export default function OwnershipAndFundingPage() {
@@ -31,7 +31,7 @@ export default function OwnershipAndFundingPage() {
               <div>
                 <h1 className="fn-static-title">Ownership & Funding Disclosure</h1>
                 <p className="fn-static-subtitle">
-                  SecNewsM is committed to full financial transparency. We believe our readers have a fundamental right to know how our newsroom is funded and governed.
+                  Tangent Weekly is committed to full financial transparency. We believe our readers have a fundamental right to know how our newsroom is funded and governed.
                 </p>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function OwnershipAndFundingPage() {
                   <span className="fn-static-section-num">01</span> Ownership & Governance
                 </h2>
                 <p>
-                  SecNewsM is owned by <strong>Maison Atelier Media Group</strong>, a private media holding company dedicated to independent digital publishing and journalism technology. No foreign government entity, state-owned enterprise, or political party holds equity, debt instruments, or governing seats within our parent corporation.
+                  Tangent Weekly is owned by <strong>Maison Atelier Media Group</strong>, a private media holding company dedicated to independent digital publishing and journalism technology. No foreign government entity, state-owned enterprise, or political party holds equity, debt instruments, or governing seats within our parent corporation.
                 </p>
               </section>
 
@@ -73,7 +73,7 @@ export default function OwnershipAndFundingPage() {
                   <span className="fn-static-section-num">02</span> Revenue Model Breakdown
                 </h2>
                 <p>
-                  To protect our reporting against sudden economic shifts or targeted advertiser boycotts, SecNewsM maintains a diversified, multi-stream revenue architecture:
+                  To protect our reporting against sudden economic shifts or targeted advertiser boycotts, Tangent Weekly maintains a diversified, multi-stream revenue architecture:
                 </p>
 
                 <div className="fn-static-grid-2">
@@ -136,7 +136,7 @@ export default function OwnershipAndFundingPage() {
                   <span className="fn-static-section-num">04</span> Investigative Grants Policy
                 </h2>
                 <p>
-                  From time to time, SecNewsM accepts non-partisan philanthropic journalism grants to fund costly deep-dive investigative projects. All grant funds are accepted with explicit contractual clauses stating that grantmakers exert zero editorial control over the resulting coverage.
+                  From time to time, Tangent Weekly accepts non-partisan philanthropic journalism grants to fund costly deep-dive investigative projects. All grant funds are accepted with explicit contractual clauses stating that grantmakers exert zero editorial control over the resulting coverage.
                 </p>
               </section>
 
@@ -145,7 +145,7 @@ export default function OwnershipAndFundingPage() {
                   <span className="fn-static-section-num">05</span> Staff Financial Disclosures
                 </h2>
                 <p>
-                  All SecNewsM financial reporters, editors, and columnists are prohibited from trading individual stocks or financial instruments in sectors they actively cover. Any broader holdings must be disclosed to the Editor-in-Chief.
+                  All Tangent Weekly financial reporters, editors, and columnists are prohibited from trading individual stocks or financial instruments in sectors they actively cover. Any broader holdings must be disclosed to the Editor-in-Chief.
                 </p>
               </section>
             </div>

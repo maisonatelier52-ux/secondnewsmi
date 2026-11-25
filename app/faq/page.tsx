@@ -16,26 +16,26 @@ const faqData: FAQItem[] = [
   {
     id: "faq-1",
     category: "subscriptions",
-    question: "What is included with a SecNewsM digital subscription?",
-    answer: "A SecNewsM subscription grants unlimited access to all breaking news dispatches, executive briefings, investigative reports, data lab visualizations, daily market summaries, and our audio podcast archives.",
+    question: "What is included with a Tangent Weekly digital subscription?",
+    answer: "A Tangent Weekly subscription grants unlimited access to all breaking news dispatches, executive briefings, investigative reports, data lab visualizations, daily market summaries, and our audio podcast archives.",
   },
   {
     id: "faq-2",
     category: "subscriptions",
     question: "How do I cancel or modify my subscription plan?",
-    answer: "You can manage your subscription settings at any time by navigating to your Account Dashboard or contacting our reader support desk at support@secnewsm.com. Cancellations take effect at the end of your active billing period.",
+    answer: "You can manage your subscription settings at any time by navigating to your Account Dashboard or contacting our reader support desk at support@tangentweekly.com. Cancellations take effect at the end of your active billing period.",
   },
   {
     id: "faq-3",
     category: "editorial",
-    question: "How does SecNewsM handle factual corrections in articles?",
+    question: "How does Tangent Weekly handle factual corrections in articles?",
     answer: "When a factual error is discovered, our editorial team immediately updates the story and appends a transparent correction box detailing what was modified, the corrected fact, and the timestamp of update.",
   },
   {
     id: "faq-4",
     category: "editorial",
     question: "How can I submit a confidential news tip to the newsroom?",
-    answer: "Confidential news tips can be submitted via encrypted email to tips@secnewsm.com or via our secure dispatch form on the Contact page. Senior investigative editors monitor tip lines 24/7.",
+    answer: "Confidential news tips can be submitted via encrypted email to tips@tangentweekly.com or via our secure dispatch form on the Contact page. Senior investigative editors monitor tip lines 24/7.",
   },
   {
     id: "faq-5",
@@ -47,19 +47,19 @@ const faqData: FAQItem[] = [
     id: "faq-6",
     category: "account",
     question: "Is my personal reading data and email address safe?",
-    answer: "Yes. SecNewsM adheres strictly to GDPR and CCPA privacy standards. We do not sell, rent, or trade reader personal data to third-party data brokers under any circumstances.",
+    answer: "Yes. Tangent Weekly adheres strictly to GDPR and CCPA privacy standards. We do not sell, rent, or trade reader personal data to third-party data brokers under any circumstances.",
   },
   {
     id: "faq-7",
     category: "syndication",
-    question: "Can I quote or republish SecNewsM articles for academic or media use?",
-    answer: "Brief quotations (up to 150 words) are permitted for fair use with hyperlinked attribution. Full article re-publishing or commercial syndication requires licensing permission from syndication@secnewsm.com.",
+    question: "Can I quote or republish Tangent Weekly articles for academic or media use?",
+    answer: "Brief quotations (up to 150 words) are permitted for fair use with hyperlinked attribution. Full article re-publishing or commercial syndication requires licensing permission from syndication@tangentweekly.com.",
   },
   {
     id: "faq-8",
     category: "syndication",
-    question: "Does SecNewsM offer corporate or institutional enterprise licenses?",
-    answer: "Yes. We offer enterprise site licenses for universities, corporate newsrooms, government agencies, and financial firms. Contact corporate@secnewsm.com for custom group rates.",
+    question: "Does Tangent Weekly offer corporate or institutional enterprise licenses?",
+    answer: "Yes. We offer enterprise site licenses for universities, corporate newsrooms, government agencies, and financial firms. Contact corporate@tangentweekly.com for custom group rates.",
   },
 ];
 
@@ -101,7 +101,7 @@ export default function FAQPage() {
               <div>
                 <h1 className="fn-static-title">Frequently Asked Questions</h1>
                 <p className="fn-static-subtitle">
-                  Find fast answers to common questions regarding SecNewsM subscriptions, editorial standards, newsletter preferences, and content licensing.
+                  Find fast answers to common questions regarding Tangent Weekly subscriptions, editorial standards, newsletter preferences, and content licensing.
                 </p>
               </div>
             </div>

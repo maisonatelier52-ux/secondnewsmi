@@ -40,7 +40,7 @@ export default function OpinionCarouselSection({
     <section className="fn-sec4-wrap">
       {/* Header with Arrow Controls */}
       <div className="fn-sec4-header">
-        <h2 className="fn-sec4-title">Featured Opinion &amp; Audio Series</h2>
+        <h2 className="fn-sec4-title">Analysis &amp; Commentary</h2>
 
         <div className="fn-sec4-controls">
           <button className="fn-sec4-arrow" onClick={scrollLeft} aria-label="Scroll left">
@@ -70,12 +70,6 @@ export default function OpinionCarouselSection({
                 {item.title}
               </h3>
               <div className="fn-sec4-author-row">
-                {item.author.image && (
-                  <div className="fn-sec4-author-avatar">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={item.author.image} alt={item.author.name} />
-                  </div>
-                )}
                 <span>{item.author.role === "Host" ? "Hosted by " : "By "}{item.author.name}</span>
               </div>
             </Link>

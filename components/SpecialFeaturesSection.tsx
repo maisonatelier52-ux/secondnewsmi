@@ -15,9 +15,9 @@ export default function SpecialFeaturesSection({
     <section className="fn-feat-wrap">
       {/* Top Header */}
       <div className="fn-feat-header">
-        <h2 className="fn-feat-title">Special Features & Industry Insights</h2>
+        <h2 className="fn-feat-title">Markets, Policy &amp; More</h2>
         <Link href="/business" className="fn-feat-more-link">
-          Explore All Features →
+          Explore All Stories →
         </Link>
       </div>
 

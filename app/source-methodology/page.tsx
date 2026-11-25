@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Source Methodology — SecNewsM",
-  description: "Learn how SecNewsM verifies sources, authenticates primary documents, handles anonymous informants, and ensures factual precision.",
+  title: "Source Methodology — Tangent Weekly",
+  description: "Learn how Tangent Weekly verifies sources, authenticates primary documents, handles anonymous informants, and ensures factual precision.",
 };
 
 export default function SourceMethodologyPage() {
@@ -31,7 +31,7 @@ export default function SourceMethodologyPage() {
               <div>
                 <h1 className="fn-static-title">Source Methodology & Verification Guide</h1>
                 <p className="fn-static-subtitle">
-                  A transparent breakdown of how SecNewsM journalists identify primary sources, vet confidential whistleblowers, authenticate data, and corroborate facts.
+                  A transparent breakdown of how Tangent Weekly journalists identify primary sources, vet confidential whistleblowers, authenticate data, and corroborate facts.
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function SourceMethodologyPage() {
             <div className="fn-static-content">
               <section id="hierarchy" className="fn-static-section">
                 <h2 className="fn-static-section-title">
-                  <span className="fn-static-section-num">01</span> The SecNewsM Source Hierarchy
+                  <span className="fn-static-section-num">01</span> The Tangent Weekly Source Hierarchy
                 </h2>
                 <p>
                   We prioritize primary sources with direct, firsthand knowledge of events, policy deliberations, or corporate transactions:
@@ -119,7 +119,7 @@ export default function SourceMethodologyPage() {
                   <span className="fn-static-section-num">04</span> Data Journalism & Statistical Auditing
                 </h2>
                 <p>
-                  When reporting on economic indicators, clinical trials, or market projections, SecNewsM data journalists cross-reference raw datasets against peer-reviewed methodologies and independent econometric models.
+                  When reporting on economic indicators, clinical trials, or market projections, Tangent Weekly data journalists cross-reference raw datasets against peer-reviewed methodologies and independent econometric models.
                 </p>
               </section>
 

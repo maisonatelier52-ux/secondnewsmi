@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: AuthorPageProps) {
   const { slug } = await params;
   const author = getAuthorBySlug(slug);
   return {
-    title: `${author.name} — ${author.role} | SecNewsM`,
+    title: `${author.name} — ${author.role} | Tangent Weekly`,
     description: author.bio,
   };
 }
@@ -116,7 +116,7 @@ export default async function AuthorPage({ params }: AuthorPageProps) {
                   </span>
                   <span style={{ fontSize: "12px", color: "#737373" }}>•</span>
                   <span style={{ fontSize: "12px", color: "#737373" }}>
-                    Joined SecNewsM: {author.joinedYear}
+                    Joined Tangent Weekly: {author.joinedYear}
                   </span>
                 </div>
 
@@ -279,7 +279,7 @@ export default async function AuthorPage({ params }: AuthorPageProps) {
               <div className="fn-static-box" style={{ marginTop: 0 }}>
                 <div className="fn-static-box-title">Journalistic Independence</div>
                 <p style={{ fontSize: "12.5px", color: "#525252", lineHeight: "1.5" }}>
-                  {author.name} adheres strictly to the SecNewsM Editorial Code of Ethics. All published stories undergo dual-source verification and independent copy editing.
+                  {author.name} adheres strictly to the Tangent Weekly Editorial Code of Ethics. All published stories undergo dual-source verification and independent copy editing.
                 </p>
                 <Link href="/editorial-policy" style={{ fontSize: "12px", color: "#dc2626", fontWeight: "700", display: "inline-block", marginTop: "8px" }}>
                   Read Editorial Code →

@@ -11,8 +11,10 @@ interface VisualEssaysSectionProps {
 
 export default function VisualEssaysSection({
   leadArticle,
-  secondaryArticles,
+  secondaryArticles = [],
 }: VisualEssaysSectionProps) {
+  if (!leadArticle) return null;
+
   const leadCat = leadArticle.category?.toLowerCase() || "world";
 
   return (
@@ -22,20 +24,14 @@ export default function VisualEssaysSection({
         <div>
           <div className="fn-vis-badge">
             <span className="fn-vis-badge-dot" />
-            VISUAL ESSAYS & CULTURE
+            FEATURED COVERAGE
           </div>
-          <h2 className="fn-vis-title">Photojournalism & Cultural Lens</h2>
+          <h2 className="fn-vis-title">Culture, Business &amp; World Reports</h2>
           <p className="fn-vis-subtitle">
-            Immersive longform photo essays and deep-dive cultural commentary from our international field correspondents.
+            Selected reporting on entertainment, financial markets, and international affairs from our editorial desks.
           </p>
         </div>
 
-        <div className="fn-vis-tabs">
-          <button className="fn-vis-tab active">All Essays</button>
-          <button className="fn-vis-tab">Architecture</button>
-          <button className="fn-vis-tab">Expeditions</button>
-          <button className="fn-vis-tab">Analog Craft</button>
-        </div>
       </div>
 
       {/* Main Showcase Hero Banner */}
@@ -57,14 +53,6 @@ export default function VisualEssaysSection({
 
           <div className="fn-vis-hero-footer">
             <div className="fn-vis-author">
-              {leadArticle.author?.image && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={leadArticle.author.image}
-                  alt={leadArticle.author.name}
-                  className="fn-vis-author-avatar"
-                />
-              )}
               <div>
                 <span className="fn-vis-author-name">{leadArticle.author?.name || "Staff Writer"}</span>
                 <span className="fn-vis-author-role">{leadArticle.author?.role || "Field Photojournalist"}</span>

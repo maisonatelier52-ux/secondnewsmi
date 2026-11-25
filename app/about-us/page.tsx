@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us — SecNewsM",
-  description: "Learn about SecNewsM's mission, journalistic principles, editorial independence, global news coverage, and commitment to factual reporting.",
+  title: "About Us — Tangent Weekly",
+  description: "Learn about Tangent Weekly's mission, journalistic principles, editorial independence, global news coverage, and commitment to factual reporting.",
 };
 
 export default function AboutUsPage() {
@@ -27,9 +27,9 @@ export default function AboutUsPage() {
             <div className="fn-static-header-row">
               <div className="fn-static-accent-bar" />
               <div>
-                <h1 className="fn-static-title">About SecNewsM</h1>
+                <h1 className="fn-static-title">About Tangent Weekly</h1>
                 <p className="fn-static-subtitle">
-                  SecNewsM is an independent digital news institution dedicated to delivers rigourous, impartial reporting, deep geopolitical analysis, and market-defining insights to millions of readers around the globe.
+                  Tangent Weekly is an independent digital news institution dedicated to delivers rigourous, impartial reporting, deep geopolitical analysis, and market-defining insights to millions of readers around the globe.
                 </p>
               </div>
             </div>
@@ -71,16 +71,16 @@ export default function AboutUsPage() {
                   <span className="fn-static-section-num">01</span> Our Journalistic Mission
                 </h2>
                 <p>
-                  In an era dominated by instantaneous information, click-driven headlines, and algorithmic bias, <strong>SecNewsM</strong> stands as a sanctuary of verified, analytical, and deeply researched journalism. We believe that an informed public is the bedrock of democratic accountability, global stability, and economic progress.
+                  In an era dominated by instantaneous information, click-driven headlines, and algorithmic bias, <strong>Tangent Weekly</strong> stands as a sanctuary of verified, analytical, and deeply researched journalism. We believe that an informed public is the bedrock of democratic accountability, global stability, and economic progress.
                 </p>
                 <p style={{ marginTop: "14px" }}>
                   Our newsroom operates around the clock to track breaking developments across international trade, political summits, technological breakthroughs, and societal shifts. We prioritize context over speed, accuracy over sensation, and depth over noise.
                 </p>
 
                 <div className="fn-static-box">
-                  <div className="fn-static-box-title">The SecNewsM Promise</div>
+                  <div className="fn-static-box-title">The Tangent Weekly Promise</div>
                   <p style={{ fontSize: "14px", color: "#404040" }}>
-                    "Every article published by SecNewsM undergoes multi-layer editorial review, rigorous source verification, and transparent disclosure of data sources. We earn our readers&apos; trust anew with every story we break."
+                    "Every article published by Tangent Weekly undergoes multi-layer editorial review, rigorous source verification, and transparent disclosure of data sources. We earn our readers&apos; trust anew with every story we break."
                   </p>
                 </div>
               </section>
@@ -135,7 +135,7 @@ export default function AboutUsPage() {
                   <span className="fn-static-section-num">03</span> Global Reach & Scale
                 </h2>
                 <p>
-                  With specialized bureaus across key financial capitals and diplomatic hubs, SecNewsM provides continuous coverage tailored for global decision-makers.
+                  With specialized bureaus across key financial capitals and diplomatic hubs, Tangent Weekly provides continuous coverage tailored for global decision-makers.
                 </p>
 
                 <div className="fn-static-grid-2" style={{ marginTop: "18px" }}>
@@ -156,7 +156,7 @@ export default function AboutUsPage() {
                   <span className="fn-static-section-num">04</span> Ownership & Structural Independence
                 </h2>
                 <p>
-                  SecNewsM is privately owned and operated with a strict, legally binding editorial firewall that protects newsroom decision-making from commercial, corporate, or investor interference. Advertisers and sponsors have zero access to upcoming investigative reporting and no oversight over editorial choices.
+                  Tangent Weekly is privately owned and operated with a strict, legally binding editorial firewall that protects newsroom decision-making from commercial, corporate, or investor interference. Advertisers and sponsors have zero access to upcoming investigative reporting and no oversight over editorial choices.
                 </p>
                 <p style={{ marginTop: "12px" }}>
                   To read our complete funding structure, visit our <Link href="/ownership-and-funding" style={{ color: "#dc2626", fontWeight: 600 }}>Ownership & Funding Disclosure</Link>.

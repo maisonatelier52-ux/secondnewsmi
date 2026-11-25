@@ -24,10 +24,12 @@ function getCategorySlug(category: string): string {
 
 export default function EditorialSelectionSection({
   leadArticle,
-  midStackArticles,
-  rightStackArticles,
-  stripArticles,
+  midStackArticles = [],
+  rightStackArticles = [],
+  stripArticles = [],
 }: EditorialSelectionSectionProps) {
+  if (!leadArticle) return null;
+
   const leadCat = getCategorySlug(leadArticle.category);
 
   return (
@@ -35,19 +37,13 @@ export default function EditorialSelectionSection({
       {/* Section Header */}
       <div className="fn-section-header">
         <div className="fn-section-title-box">
-          <span className="fn-section-kicker">EDITORIAL SELECTION</span>
-          <h2 className="fn-section-main-heading">Global Currents &amp; Perspectives</h2>
+          <span className="fn-section-kicker">TOP STORIES</span>
+          <h2 className="fn-section-main-heading">National &amp; Global Headlines</h2>
           <p className="fn-section-subtitle">
-            In-depth analysis, breaking stories, and investigative reporting from around the globe.
+            Key developments across U.S. politics, global markets, technology, and public accountability.
           </p>
         </div>
 
-        <div className="fn-section-tabs">
-          <span className="fn-section-tab active">All Stories</span>
-          <span className="fn-section-tab">Deep Dives</span>
-          <span className="fn-section-tab">Analysis</span>
-          <span className="fn-section-tab">Interviews</span>
-        </div>
       </div>
 
       {/* 3-Column Grid */}
@@ -66,20 +62,13 @@ export default function EditorialSelectionSection({
             <h3 className="fn-lead-title">
               {leadArticle.title}
             </h3>
-            <p className="fn-lead-desc">
+            {/* <p className="fn-lead-desc">
               {leadArticle.shortdescription}
-            </p>
+            </p> */}
           </Link>
 
           <div className="fn-lead-author-row">
-            <div className="fn-author-avatar-img">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={leadArticle.author.image}
-                alt={leadArticle.author.name}
-              />
-            </div>
-            <span>By {leadArticle.author.name}</span>
+            <span>By {leadArticle.author?.name || "Staff Writer"}</span>
             <span>·</span>
             <span>{leadArticle.date}</span>
           </div>

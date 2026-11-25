@@ -25,11 +25,15 @@ function getCategorySlug(category: string): string {
 
 export default function HeroGridSection({
   mainArticle,
-  miniArticles,
+  miniArticles = [],
   featuredTopicArticle,
-  topicArticles,
-  hotArticles,
+  topicArticles = [],
+  hotArticles = [],
 }: HeroGridSectionProps) {
+  if (!mainArticle || !featuredTopicArticle) {
+    return null;
+  }
+
   const mainCat = getCategorySlug(mainArticle.category);
   const featuredCat = getCategorySlug(featuredTopicArticle.category);
 

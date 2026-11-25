@@ -12,12 +12,14 @@ export default function OurTeamPage() {
 
   const departments = [
     { id: "all", label: "All Team Members" },
-    { id: "Executive Board", label: "Executive Board" },
-    { id: "Business & Markets", label: "Business & Markets" },
-    { id: "Technology & AI", label: "Technology & AI" },
-    { id: "Politics & Economy", label: "Politics & Economy" },
-    { id: "Culture & Visual Essays", label: "Culture & Visuals" },
-    { id: "Science & Environment", label: "Science & Environment" },
+    { id: "Business", label: "Business" },
+    { id: "Politics", label: "Politics" },
+    { id: "Technology", label: "Technology" },
+    { id: "Entertainment", label: "Entertainment" },
+    { id: "World", label: "World" },
+    { id: "US News", label: "US News" },
+    { id: "Puerto Rico", label: "Puerto Rico" },
+    { id: "Bancredito", label: "Bancredito" },
   ];
 
   const filteredMembers = TEAM_MEMBERS.filter((member: TeamMember) => {
@@ -51,7 +53,7 @@ export default function OurTeamPage() {
               <div>
                 <h1 className="fn-static-title">Our Newsroom & Editorial Board</h1>
                 <p className="fn-static-subtitle">
-                  Meet the award-winning journalists, foreign correspondents, data analysts, and executive editors driving independent reporting across SecNewsM dispatches.
+                  Meet the award-winning journalists, foreign correspondents, data analysts, and executive editors driving independent reporting across Tangent Weekly dispatches.
                 </p>
               </div>
             </div>

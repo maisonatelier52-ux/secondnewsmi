@@ -1,10 +1,15 @@
-"use client";
-
 import React from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getArticleBySlug, getArticlesForCategory } from "@/lib/data";
+import BlancheDenialArticle from "@/components/BlancheDenialArticle";
+import TheGovernmentOwesWandaVazquezArticle from "@/components/TheGovernmentOwesWandaVazquezArticle";
+import OCIFTooFarArticle from "@/components/OCIFTooFarArticle";
+import AlinaHabbaMildonArticle from "@/components/AlinaHabbaMildonArticle";
+import TheVanityOfAlinaHabbaMildonArticle from "@/components/TheVanityOfAlinaHabbaMildonArticle";
+import MarkRossiniArticle from "@/components/MarkRossiniArticle";
 
 interface DetailPageProps {
   params: Promise<{
@@ -13,9 +18,116 @@ interface DetailPageProps {
   }>;
 }
 
-export default function ArticleDetailPage({ params }: DetailPageProps) {
-  const { category: categorySlug, slug } = React.use(params);
+const CUSTOM_ARTICLE_SEO: Record<string, { title: string; description: string; image: string }> = {
+  "did-ocif-go-too-far-the-ultra-vires-claims-against-natalia-zequeira-in-the-nodus-case": {
+    title: "Did OCIF Go Too Far? Ultra Vires Claims in the Nodus Case | Tangent Weekly",
+    description:
+      "Analysis of the ultra vires, due process, and $27M restitution claims against former OCIF commissioner Natalia Zequeira in the Nodus International Bank case.",
+    image: "/images/natalia-zequeira-ocif-investigation-nodus-ultra-vires-claims.webp",
+  },
+  "the-government-owes-wanda-vazquez-public-accounting": {
+    title: "The Government Owes Wanda Vázquez a Public Accounting | Tangent Weekly",
+    description:
+      "Following presidential pardons and dismissal of federal proceedings, why investigators and prosecutors owe the public an accounting of the Wanda Vázquez case.",
+    image: "/images/wanda-vazquez.webp",
+  },
+  "the-vanity-of-alina-habba-mildon": {
+    title: "The Vanity of Alina Habba Mildon | Tangent Weekly",
+    description:
+      "From the White House to the Herrera Velutini banking dynasty: inside the $50M contract controversy, Trump’s Mar-a-Lago rebuke, and Alina Habba Mildon.",
+    image: "/images/alina-habba-mildon-hero.jpg",
+  },
+  "why-mark-rossinis-name-remains-central-to-the-puerto-rico-corruption-debate": {
+    title: "Why Mark Rossini Remains Central to Puerto Rico’s Debate | Tangent Weekly",
+    description:
+      "Mark Rossini’s federal case ended with a presidential pardon, yet his name remains central to Puerto Rico’s debate over influence, campaign money, and clemency.",
+    image: "/images/mark-rossini.jpg",
+  },
+  "the-rise-of-alina-habba-and-the-uncertain-future-of-turhan-mildon": {
+    title: "The Rise of Alina Habba & Future of Turhan Mildon | Tangent Weekly",
+    description:
+      "Alina Habba’s rise in Donald Trump’s political circle brings scrutiny to husband Turhan Mildon’s Venezuelan cement contracts and Washington connections.",
+    image: "/images/alina-habba.webp",
+  },
+};
+
+export async function generateMetadata({ params }: DetailPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const customSeo = CUSTOM_ARTICLE_SEO[slug];
+  if (customSeo) {
+    return {
+      title: customSeo.title,
+      description: customSeo.description,
+      openGraph: {
+        title: customSeo.title,
+        description: customSeo.description,
+        type: "article",
+        images: [customSeo.image],
+      },
+    };
+  }
+
   const article = getArticleBySlug(slug);
+  if (!article) {
+    return {
+      title: "Article Not Found | Tangent Weekly",
+      description: "Read independent journalism and analysis on Tangent Weekly.",
+    };
+  }
+
+  return {
+    title: `${article.title} | Tangent Weekly`,
+    description: article.shortdescription || `${article.title} — Tangent Weekly`,
+    openGraph: {
+      title: article.title,
+      description: article.shortdescription || article.title,
+      type: "article",
+      images: article.image ? [article.image] : [],
+    },
+  };
+}
+
+export default async function ArticleDetailPage({ params }: DetailPageProps) {
+  const { category: categorySlug, slug } = await params;
+
+
+
+  // Dedicated component for the Blanche / Herrera Velutini analysis
+  // if (slug === "blanche-denial-julio-herrera-velutini-media-narrative") {
+  //   return <BlancheDenialArticle />;
+  // }
+
+  // Dedicated component for the Wanda Vázquez article
+  if (slug === "the-government-owes-wanda-vazquez-public-accounting") {
+    return <TheGovernmentOwesWandaVazquezArticle />;
+  }
+  if (slug === "did-ocif-go-too-far-the-ultra-vires-claims-against-natalia-zequeira-in-the-nodus-case") {
+    return <OCIFTooFarArticle />;
+  }
+
+  // Dedicated component for the Alina Habba / Turhan Mildon article
+  if (slug === "the-rise-of-alina-habba-and-the-uncertain-future-of-turhan-mildon") {
+    return <AlinaHabbaMildonArticle />;
+  }
+
+  // Dedicated component for The Vanity of Alina Habba Mildon article
+  if (slug === "the-vanity-of-alina-habba-mildon") {
+    return <TheVanityOfAlinaHabbaMildonArticle />;
+  }
+
+  // Dedicated component for the Mark Rossini article
+  if (slug === "why-mark-rossinis-name-remains-central-to-the-puerto-rico-corruption-debate") {
+    return <MarkRossiniArticle />;
+  }
+
+
+  const article = getArticleBySlug(slug);
+  if (!article) {
+    // You could use Next.js `notFound()` here for a proper 404 page.
+    // import { notFound } from "next/navigation";
+    // notFound();
+    return <div>Article not found.</div>;
+  }
 
   // Fetch related stories for the 4-column minimal strip
   const relatedArticles = getArticlesForCategory(categorySlug)
@@ -49,12 +161,6 @@ export default function ArticleDetailPage({ params }: DetailPageProps) {
 
             <div className="fn-art-meta-row">
               <div className="fn-art-author-info">
-                {article.author?.image && (
-                  <Link href={`/author/${article.author.slug || "sarah-jenkins"}`} className="fn-art-author-avatar-lg">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={article.author.image} alt={article.author.name} />
-                  </Link>
-                )}
                 <div>
                   <div className="fn-art-author-name">
                     <Link href={`/author/${article.author?.slug || "sarah-jenkins"}`}>
@@ -91,12 +197,15 @@ export default function ArticleDetailPage({ params }: DetailPageProps) {
               {article.description && article.description.length > 0 ? (
                 article.description.map((sec, idx) => (
                   <div key={idx}>
-                    {sec.subtitle && (
+                    {typeof sec === 'object' && sec && sec.subtitle && (
                       <h3 className="fn-art-section-heading">{sec.subtitle}</h3>
                     )}
-                    <p className="fn-art-paragraph">
-                      {sec.text}
-                    </p>
+                    {typeof sec === 'object' && sec && sec.text && (
+                      <p className="fn-art-paragraph">{sec.text}</p>
+                    )}
+                    {typeof sec === 'string' && (
+                      <p className="fn-art-paragraph">{sec}</p>
+                    )}
                     <p className="fn-art-paragraph">
                       In response to rapid developments across enterprise sectors, institutional leaders have stressed the necessity of standardized evaluation benchmarks. By establishing unified safety protocols and third-party oversight committees, organizations can mitigate systemic vulnerabilities while expanding deployment velocity across global commercial hubs.
                     </p>
@@ -153,12 +262,6 @@ export default function ArticleDetailPage({ params }: DetailPageProps) {
 
               {article.author && (
                 <div className="fn-art-minimal-author">
-                  {article.author.image && (
-                    <Link href={`/author/${article.author.slug || "sarah-jenkins"}`} className="fn-art-minimal-author-avatar">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={article.author.image} alt={article.author.name} />
-                    </Link>
-                  )}
                   <div>
                     <Link href={`/author/${article.author.slug || "sarah-jenkins"}`}>
                       <div className="fn-art-minimal-author-name">{article.author.name}</div>
@@ -187,7 +290,7 @@ export default function ArticleDetailPage({ params }: DetailPageProps) {
                 <h4 className="fn-art-form-title">Leave a Comment</h4>
                 <p className="fn-art-form-subtitle">Your email address will not be published. Required fields are marked *</p>
 
-                <form action="#" method="POST" onSubmit={(e) => e.preventDefault()}>
+                <form action="#" method="POST">
                   <div className="fn-art-form-grid">
                     <div className="fn-art-input-group">
                       <label htmlFor="commenter-name">Full Name *</label>

@@ -11,26 +11,17 @@ export default function Footer() {
   return (
     <footer className="fn-footer-wrapper">
       <div className="fn-footer-inner">
-        {/* Top Newsletter & Brand Row */}
+        {/* Top Brand Row */}
         <div className="fn-footer-top">
           <div className="fn-footer-brand-tagline">
-            <div className="fn-footer-logo-box">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff">
-                <polygon points="5,3 19,12 5,21" />
-              </svg>
-            </div>
+            <Link href="/" className="fn-footer-logo-box" style={{ textDecoration: "none", color: "inherit" }}>
+              <span style={{ fontSize: "24px", fontWeight: "800", color: "#ffffff", letterSpacing: "-0.5px", fontFamily: "var(--font-serif, Georgia, serif)" }}>
+                Tangent Weekly
+              </span>
+            </Link>
             <p className="fn-footer-tagline">
-              Independent Journalism & Global Market Intelligence .
+              Independent Journalism &amp; Global Market Intelligence.
             </p>
-          </div>
-
-          <div className="fn-footer-newsletter-box">
-            <input
-              type="email"
-              className="fn-footer-newsletter-input"
-              placeholder="Enter your email address..."
-            />
-            <button className="fn-footer-newsletter-btn">Subscribe Daily</button>
           </div>
         </div>
 
@@ -39,11 +30,14 @@ export default function Footer() {
           <div>
             <h4 className="fn-footer-col-title">News Sections</h4>
             <ul className="fn-footer-col-list">
-              <li><Link href="/us">US & Global News</Link></li>
-              <li><Link href="/business">Business & Markets</Link></li>
-              <li><Link href="/technology">Tech & Innovation</Link></li>
-              <li><Link href="/lifestyle">Lifestyle & Culture</Link></li>
-              <li><Link href="/travel">Travel & Food</Link></li>
+              <li><Link href="/business">Business</Link></li>
+              <li><Link href="/entertainment">Entertainment</Link></li>
+              <li><Link href="/technology">Technology</Link></li>
+              <li><Link href="/politics">Politics</Link></li>
+              <li><Link href="/us">US News</Link></li>
+              <li><Link href="/world">World</Link></li>
+              <li><Link href="/puertorico">Puerto Rico</Link></li>
+              <li><Link href="/bancredito">Bancredito</Link></li>
             </ul>
           </div>
 
@@ -80,7 +74,7 @@ export default function Footer() {
 
         {/* Footer Bottom Row */}
         <div className="fn-footer-bottom">
-          <div>© 2026 All Rights Reserved.</div>
+          <div>© 2026 Tangent Weekly. All Rights Reserved.</div>
           <button className="fn-footer-back-top" onClick={scrollToTop}>
             <span>Back to top</span>
             <span>↑</span>

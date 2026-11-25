@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions — SecNewsM",
-  description: "Read the official Terms and Conditions governing your use of SecNewsM digital services, articles, media assets, and interactive features.",
+  title: "Terms and Conditions — Tangent Weekly",
+  description: "Read the official Terms and Conditions governing your use of Tangent Weekly digital services, articles, media assets, and interactive features.",
 };
 
 export default function TermsAndConditionsPage() {
@@ -31,7 +31,7 @@ export default function TermsAndConditionsPage() {
               <div>
                 <h1 className="fn-static-title">Terms & Conditions of Service</h1>
                 <p className="fn-static-subtitle">
-                  Please read these Terms and Conditions carefully before accessing or using SecNewsM&apos;s digital platform, mobile features, newsletters, and syndicated feeds.
+                  Please read these Terms and Conditions carefully before accessing or using Tangent Weekly&apos;s digital platform, mobile features, newsletters, and syndicated feeds.
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function TermsAndConditionsPage() {
                   <span className="fn-static-section-num">01</span> Acceptance of Agreement
                 </h2>
                 <p>
-                  By accessing, browsing, or creating an account on SecNewsM (referred to as &quot;the Service&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree to these terms, you must immediately cease all access to the site.
+                  By accessing, browsing, or creating an account on Tangent Weekly (referred to as &quot;the Service&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree to these terms, you must immediately cease all access to the site.
                 </p>
               </section>
 
@@ -77,12 +77,12 @@ export default function TermsAndConditionsPage() {
                   <span className="fn-static-section-num">02</span> Intellectual Property Rights
                 </h2>
                 <p>
-                  All content published on SecNewsM—including text, graphics, logos, photos, audio clips, video broadcasts, software code, and data visualizers—is the property of SecNewsM or its content suppliers and is protected under international copyright, trademark, and database protection laws.
+                  All content published on Tangent Weekly—including text, graphics, logos, photos, audio clips, video broadcasts, software code, and data visualizers—is the property of Tangent Weekly or its content suppliers and is protected under international copyright, trademark, and database protection laws.
                 </p>
                 <div className="fn-static-box">
                   <div className="fn-static-box-title">Reprint & Quotation Rules</div>
                   <p style={{ fontSize: "13.5px", color: "#404040" }}>
-                    Brief excerpts (up to 150 words) may be quoted for journalistic, educational, or critique purposes provided that clear hyperlinked attribution is given to <strong>SecNewsM</strong>. Full article re-publishing requires written licensing permission from our syndication team.
+                    Brief excerpts (up to 150 words) may be quoted for journalistic, educational, or critique purposes provided that clear hyperlinked attribution is given to <strong>Tangent Weekly</strong>. Full article re-publishing requires written licensing permission from our syndication team.
                   </p>
                 </div>
               </section>
@@ -104,7 +104,7 @@ export default function TermsAndConditionsPage() {
                   <span className="fn-static-section-num">04</span> User Submissions & Reader Comments
                 </h2>
                 <p>
-                  Any commentary, letters to the editor, or opinion responses submitted to SecNewsM grant us a non-exclusive, worldwide, royalty-free license to publish, archive, or syndicate your submission across our digital network.
+                  Any commentary, letters to the editor, or opinion responses submitted to Tangent Weekly grant us a non-exclusive, worldwide, royalty-free license to publish, archive, or syndicate your submission across our digital network.
                 </p>
               </section>
 
@@ -122,7 +122,7 @@ export default function TermsAndConditionsPage() {
                   <span className="fn-static-section-num">06</span> Limitation of Liability
                 </h2>
                 <p>
-                  Articles on SecNewsM are published for informational and educational purposes. Financial, legal, or market reporting does not constitute individualized investment or financial advice. SecNewsM is not liable for financial decisions made based on published analysis.
+                  Articles on Tangent Weekly are published for informational and educational purposes. Financial, legal, or market reporting does not constitute individualized investment or financial advice. Tangent Weekly is not liable for financial decisions made based on published analysis.
                 </p>
               </section>
 

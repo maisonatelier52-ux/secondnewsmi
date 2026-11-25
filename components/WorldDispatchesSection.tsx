@@ -15,15 +15,7 @@ export default function WorldDispatchesSection({
     <section className="fn-sec3-wrap">
       {/* Header */}
       <div className="fn-sec3-top-head">
-        <h2 className="fn-sec3-main-title">World Dispatches & Special Briefings</h2>
-
-        <div className="fn-sec3-categories">
-          <span className="fn-sec3-cat-item active">All Regions</span>
-          <span className="fn-sec3-cat-item">Americas</span>
-          <span className="fn-sec3-cat-item">Europe & UK</span>
-          <span className="fn-sec3-cat-item">Asia Pacific</span>
-          <span className="fn-sec3-cat-item">Middle East</span>
-        </div>
+        <h2 className="fn-sec3-main-title">Category Briefings &amp; Highlights</h2>
       </div>
 
       {/* 4 Equal Columns Grid */}

@@ -40,7 +40,7 @@ export default function ContactPage() {
               <div>
                 <h1 className="fn-static-title">Contact Newsroom & Editorial</h1>
                 <p className="fn-static-subtitle">
-                  Reach out to the SecNewsM newsroom, submit confidential news tips, inquire about advertising partnerships, or request editorial clarifications.
+                  Reach out to the Tangent Weekly newsroom, submit confidential news tips, inquire about advertising partnerships, or request editorial clarifications.
                 </p>
               </div>
             </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
                     Message Received
                   </h3>
                   <p style={{ fontSize: "14.5px", color: "#525252", maxWidth: "480px", margin: "0 auto 24px auto", lineHeight: "1.6" }}>
-                    Thank you for reaching out to SecNewsM. Your submission has been directed to our {formData.department.toUpperCase()} desk. A representative or duty editor will review your message shortly.
+                    Thank you for reaching out to Tangent Weekly. Your submission has been directed to our {formData.department.toUpperCase()} desk. A representative or duty editor will review your message shortly.
                   </p>
                   <button
                     onClick={() => { setSubmitted(false); setFormData({ name: "", email: "", department: "general", subject: "", message: "" }); }}
@@ -169,31 +169,31 @@ export default function ContactPage() {
 
                 <div className="fn-dept-item">
                   <div className="fn-dept-name">Newsroom Desk</div>
-                  <div className="fn-dept-email">newsroom@secnewsm.com</div>
+                  <div className="fn-dept-email">newsroom@tangentweekly.com</div>
                   <div className="fn-dept-desc">For general reporting inquiries, breaking updates, and story ideas.</div>
                 </div>
 
                 <div className="fn-dept-item">
                   <div className="fn-dept-name">Confidential Tips</div>
-                  <div className="fn-dept-email">tips@secnewsm.com</div>
+                  <div className="fn-dept-email">tips@tangentweekly.com</div>
                   <div className="fn-dept-desc">Monitored 24/7 by senior investigative editors. PGP encryption key available upon request.</div>
                 </div>
 
                 <div className="fn-dept-item">
                   <div className="fn-dept-name">Editorial Corrections</div>
-                  <div className="fn-dept-email">corrections@secnewsm.com</div>
+                  <div className="fn-dept-email">corrections@tangentweekly.com</div>
                   <div className="fn-dept-desc">For factual correction requests, attribution notices, or clarifications.</div>
                 </div>
 
                 <div className="fn-dept-item">
                   <div className="fn-dept-name">Advertising & Partnerships</div>
-                  <div className="fn-dept-email">advertising@secnewsm.com</div>
+                  <div className="fn-dept-email">advertising@tangentweekly.com</div>
                   <div className="fn-dept-desc">Sponsorship packages, programmatic advertising, and media kits.</div>
                 </div>
 
                 <div className="fn-dept-item">
                   <div className="fn-dept-name">Rights & Syndication</div>
-                  <div className="fn-dept-email">syndication@secnewsm.com</div>
+                  <div className="fn-dept-email">syndication@tangentweekly.com</div>
                   <div className="fn-dept-desc">Reprint permissions, content licensing, and academic re-use.</div>
                 </div>
               </div>

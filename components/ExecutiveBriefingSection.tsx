@@ -49,14 +49,6 @@ export default function ExecutiveBriefingSection({
 
             <div className="fn-exec-lead-footer">
               <div className="fn-exec-author-box">
-                {leadArticle.author?.image && (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={leadArticle.author.image}
-                    alt={leadArticle.author.name}
-                    className="fn-exec-author-avatar"
-                  />
-                )}
                 <div>
                   <span className="fn-exec-author-name">{leadArticle.author?.name || "Senior Analyst"}</span>
                   <span className="fn-exec-author-role">{leadArticle.author?.role || "Global Strategy"}</span>

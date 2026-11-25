@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Advertising & Sponsored Content Policy — SecNewsM",
-  description: "Read SecNewsM's guidelines for commercial advertising, sponsored articles, partner disclosures, and editorial independence.",
+  title: "Advertising & Sponsored Content Policy — Tangent Weekly",
+  description: "Read Tangent Weekly's guidelines for commercial advertising, sponsored articles, partner disclosures, and editorial independence.",
 };
 
 export default function AdvertisingPolicyPage() {
@@ -31,7 +31,7 @@ export default function AdvertisingPolicyPage() {
               <div>
                 <h1 className="fn-static-title">Advertising & Sponsored Policy</h1>
                 <p className="fn-static-subtitle">
-                  SecNewsM maintains clear distinctions between independent journalism and commercial advertising. Here are our standards for sponsors, partners, and display advertisers.
+                  Tangent Weekly maintains clear distinctions between independent journalism and commercial advertising. Here are our standards for sponsors, partners, and display advertisers.
                 </p>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function AdvertisingPolicyPage() {
                   <span className="fn-static-section-num">01</span> Separation of Editorial and Commercial Interests
                 </h2>
                 <p>
-                  SecNewsM&apos;s editorial newsroom operates with total independence from our commercial advertising team. Advertisers have no influence over story selection, investigative investigations, or editorial positions.
+                  Tangent Weekly&apos;s editorial newsroom operates with total independence from our commercial advertising team. Advertisers have no influence over story selection, investigative investigations, or editorial positions.
                 </p>
               </section>
 
@@ -90,7 +90,7 @@ export default function AdvertisingPolicyPage() {
                 <h2 className="fn-static-section-title">
                   <span className="fn-static-section-num">03</span> Prohibited Advertising Categories
                 </h2>
-                <p>SecNewsM strictly rejects advertisements that involve:</p>
+                <p>Tangent Weekly strictly rejects advertisements that involve:</p>
                 <ul style={{ paddingLeft: "20px", marginTop: "10px", lineHeight: "1.8" }}>
                   <li>Deceptive or unverified financial get-rich-quick schemes.</li>
                   <li>Illegal products, hazardous weapons, or unregulated pharmaceuticals.</li>
@@ -113,12 +113,12 @@ export default function AdvertisingPolicyPage() {
                   <span className="fn-static-section-num">05</span> Reader Ad Complaints Channel
                 </h2>
                 <p>
-                  If you encounter an advertisement on SecNewsM that appears misleading, offensive, or technically intrusive, notify our ad operations team:
+                  If you encounter an advertisement on Tangent Weekly that appears misleading, offensive, or technically intrusive, notify our ad operations team:
                 </p>
 
                 <div className="fn-static-card" style={{ marginTop: "14px" }}>
                   <div style={{ fontWeight: "700", color: "#171717" }}>Ad Operations & Safety Desk</div>
-                  <div style={{ color: "#dc2626", fontWeight: "600", marginTop: "4px" }}>adsafety@secnewsm.com</div>
+                  <div style={{ color: "#dc2626", fontWeight: "600", marginTop: "4px" }}>adsafety@tangentweekly.com</div>
                 </div>
               </section>
             </div>

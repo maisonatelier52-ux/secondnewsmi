@@ -1,46 +1,606 @@
 [
   {
     "category": "us",
-    "title": "Multinational Supply Chains Shift Toward Nearshoring Alliances in North America",
-    "slug": "multinational-supply-chains-shift-toward-nearshoring-alliances",
-    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&q=80",
-    "date": "December 14, 2026",
-    "shortdescription": "Domestic manufacturing hubs across North America see record capital expenditure and infrastructure funding.",
+    "title": "Pennsylvania Measles Cases Climb to 460 as Outbreak Continues to Spread",
+    "slug": "pennsylvania-measles-cases-climb-460-outbreak-continues",
+    "image": "/images/pennsylvania-measles-outbreak-cases.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "Pennsylvania's confirmed measles cases have climbed to 460 as health officials continue responding to an outbreak that has reached its highest level in more than three decades, with two residents reported dead after contracting the disease.",
     "description": [
       {
-        "subtitle": "Industrial Expansion",
-        "text": "State governments partner with private energy providers to build resilient transport corridors."
+        "subtitle": "Cases Continue to Rise",
+        "text": "Pennsylvania's confirmed measles cases have risen to 460 this year, according to the state's health department, adding another 36 cases to the total reported just two days earlier. The continuing increase comes as health officials work to contain an outbreak that has reached its highest level in more than three decades. Two Pennsylvania residents have died after contracting measles, marking the first measles-related deaths reported in the United States in 2026. The rise in cases has intensified concerns among public health officials about declining vaccination coverage and the ability of the highly contagious virus to spread through communities where immunity is insufficient. Pennsylvania's outbreak is part of a broader resurgence of measles across the United States, which has recorded thousands of infections this year. Health authorities have repeatedly emphasized that measles can spread rapidly among people who have not been vaccinated or who lack immunity. The Pennsylvania Department of Health has continued tracking cases across multiple counties while encouraging residents to check their vaccination status and seek medical advice if they develop symptoms associated with measles. The state's rising case count also highlights the importance of maintaining high community vaccination levels, particularly as children return to schools and colleges. Public health experts have warned that measles outbreaks can become difficult to control once transmission becomes established in communities with low immunization coverage. The latest figures demonstrate that Pennsylvania's outbreak remains active and that additional cases could be reported as health authorities continue investigating potential exposures and transmission chains. :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "subtitle": "Deaths Add Urgency to Response",
+        "text": "The confirmation of two measles-related deaths in Pennsylvania has added urgency to efforts to contain the outbreak and improve vaccination coverage. The deaths, involving unvaccinated residents of Lancaster County, are the first measles-related fatalities reported in the United States this year and the first such deaths in Pennsylvania in decades. Lancaster County has been one of the areas most heavily affected by the outbreak, with a substantial number of cases recorded among communities where vaccination rates have been below the level needed to maintain strong population immunity. Measles is highly contagious and can cause serious complications, including pneumonia, inflammation of the brain and other potentially life-threatening conditions. Health officials say vaccination remains the most effective method of preventing infection and limiting community transmission. The two deaths have also become the subject of a public dispute involving Pennsylvania officials and the federal government, with disagreements over how the fatalities should be characterized and communicated. Pennsylvania Governor Josh Shapiro has urged residents to rely on medical experts and vaccination guidance, while U.S. Health Secretary Robert F. Kennedy Jr. has questioned aspects of the state's reporting. The disagreement has added a political dimension to an already serious public health situation. Medical experts have warned that public disputes over vaccine safety and disease reporting can create confusion at a time when communities need clear information. Pennsylvania officials continue to emphasize the importance of vaccination, particularly for people who may be exposed to measles through schools, workplaces, healthcare facilities or community gatherings. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "subtitle": "Vaccination Rates Under Pressure",
+        "text": "The continuing outbreak has renewed attention on Pennsylvania's declining childhood vaccination rates and the broader challenge of maintaining community immunity against measles. Public health experts generally consider very high vaccination coverage necessary to limit sustained transmission because measles is among the most contagious infectious diseases. Pennsylvania's vaccination coverage among kindergarten-age children has fallen below the level historically associated with strong community protection, creating conditions in which imported infections can spread more easily. The decline has occurred alongside a broader national debate over vaccine policy, exemptions and public confidence in immunization. Health officials say the measles, mumps and rubella vaccine remains highly effective, with two doses providing about 97% protection against measles. However, when vaccination rates fall, communities can become increasingly vulnerable to outbreaks, particularly when the virus is introduced through travel or contact with infected individuals. The national resurgence has already pushed the United States' measles case count to levels not seen in decades, with most confirmed infections associated with outbreaks. Pennsylvania's experience demonstrates how quickly cases can increase once sustained transmission takes hold. Authorities are therefore encouraging families to review immunization records and consult healthcare professionals about catching up on missed doses. Schools and healthcare providers also play an important role in identifying suspected infections and limiting exposure to others. The outbreak has highlighted the consequences of gaps in vaccination coverage and the difficulty of containing measles once it begins circulating among under-immunized populations. :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "subtitle": "Public Health Officials Monitor Spread",
+        "text": "Pennsylvania health authorities are continuing to monitor the outbreak as cases are reported across the state and investigators work to identify chains of transmission. The increase to 460 confirmed cases represents a substantial escalation from earlier totals and makes the state's outbreak one of the most significant measles events in the country this year. Health officials must track confirmed infections, identify people who may have been exposed and determine whether additional community transmission is occurring. These efforts can require substantial resources, particularly when cases involve schools, hospitals, workplaces or large gatherings where many people may have been exposed. Measles investigations can also involve monitoring individuals during the period when symptoms may develop after exposure. The broader U.S. outbreak has already generated thousands of confirmed infections and dozens of outbreaks, placing additional pressure on state and federal public health systems. Pennsylvania's experience comes as health officials across the country attempt to restore vaccination coverage and prevent measles from becoming established in communities with lower immunity. Public health experts have also warned that misinformation about vaccines can undermine prevention efforts by discouraging people from receiving recommended immunizations. Clear communication from healthcare professionals and government agencies is therefore considered an important part of the response. Officials continue to encourage people experiencing symptoms or known exposure to contact healthcare providers before visiting medical facilities in person, helping reduce the possibility of exposing vulnerable patients and staff. As Pennsylvania's case count continues to rise, authorities are expected to maintain surveillance and outbreak-response measures while encouraging eligible residents to ensure they are adequately vaccinated. :contentReference[oaicite:3]{index=3}"
       }
     ],
     "author": {
-      "name": "Sarah Jenkins",
-      "role": "Business Analyst",
-      "bio": "Sarah covers markets and tech business strategies.",
-      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
-      "slug": "sarah-jenkins",
-      "email": "sarah.jenkins@wiremingle.com"
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
     }
   },
   {
     "category": "us",
-    "title": "Customer Engagement Marketing: A New Standard for Retail Franchises",
-    "slug": "customer-engagement-marketing-a-new-standard-for-retail-franchises",
-    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=200&q=80",
-    "date": "December 13, 2026",
-    "shortdescription": "Omnichannel loyalty programs drive significant growth in national retail chains.",
+    "title": "US Officials Revise Claims That Government Agencies Were Hacked by Chinese, Now Say They Were Targets",
+    "slug": "us-officials-revise-claims-government-agencies-hacked-chinese-now-say-targets",
+    "image": "/images/us-government-agencies-chinese-hacking-targets.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "U.S. officials have revised earlier statements that several government agencies were hacked by a Chinese state-sponsored group, clarifying that some institutions were targeted but were not necessarily compromised.",
     "description": [
       {
-        "subtitle": "Franchise Strategies",
-        "text": "Hyper-personalized messaging algorithms boost customer retention across US metropolitan centers."
+        "subtitle": "Officials Correct Earlier Cyberattack Claims",
+        "text": "U.S. officials have revised earlier claims that several major government agencies were successfully hacked by a Chinese state-sponsored cyber group, clarifying that the institutions were among the targets of a broader hacking campaign but were not necessarily compromised. The correction followed an earlier Justice Department announcement describing a Chinese hacking operation that had allegedly broken into or attempted to break into sensitive U.S. government networks. In its revised statement, the department said the U.S. Senate, NASA, the Federal Reserve and other organizations were among the targets of QTFY, a Chinese state-sponsored hacking group. The distinction between being targeted and actually breached is significant because a cyberattack can involve reconnaissance, attempted exploitation or unsuccessful intrusion without giving attackers access to a victim's systems or data. The revised language means that the scope of confirmed compromises is narrower than the initial announcement appeared to suggest. The Justice Department also modified its public statement to align with an FBI affidavit supporting the seizure of internet domains connected to the hacking operation. According to the affidavit, QTFY had attempted intrusions against a wide range of federal networks since at least 2018. Some attempts were successful, including breaches involving three Department of Energy national laboratories, the National Institutes of Health and another health-related government agency in 2024. The affidavit also indicated that an attempted intrusion against NASA in 2024 was unsuccessful because the agency had patched the relevant software vulnerabilities. The clarification has prompted renewed scrutiny of how federal agencies communicate cyber threats and distinguish confirmed breaches from attempted attacks. :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "subtitle": "QTFY Campaign Targeted Sensitive Networks",
+        "text": "The hacking campaign attributed by U.S. authorities to QTFY appears to have operated over several years and targeted government agencies, contractors and other organizations with access to sensitive information. The FBI affidavit described attempts to penetrate networks belonging to institutions including NASA, the Federal Reserve and the U.S. Senate, while separate evidence identified confirmed intrusions at other government facilities. The operation allegedly relied on sophisticated infrastructure designed to disguise the origin of cyberattacks and make attribution more difficult. U.S. authorities said QTFY used platforms known as QScan and QTRouter as part of its activities, enabling attackers to exploit compromised devices and other internet-connected systems. The Justice Department said it had seized domains associated with the platforms as part of an effort to disrupt the infrastructure supporting the campaign. The operation was described as part of a wider Chinese cyber-espionage effort that extended beyond federal agencies into critical infrastructure, defense contractors, healthcare organizations and other institutions. Earlier U.S. statements created the impression that several high-profile government agencies had been successfully penetrated, but the revised language makes clear that investigators are distinguishing between attempted intrusions and confirmed compromises. That distinction is particularly important for agencies such as NASA and the Federal Reserve, where an unsuccessful intrusion attempt could still represent a significant national-security concern even if attackers failed to obtain access. Cybersecurity experts have long warned that government networks face persistent probing from state-sponsored groups, with attackers often conducting reconnaissance before attempting to exploit vulnerabilities. The QTFY investigation therefore remains significant even after the U.S. government corrected its description of which agencies were actually breached. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "subtitle": "Confirmed Breaches Were Also Discovered",
+        "text": "Although several of the agencies initially described as victims were later identified more accurately as targets, U.S. investigators said the broader campaign did result in confirmed intrusions elsewhere. The FBI affidavit cited successful attacks involving three Department of Energy national laboratories, the National Institutes of Health and a health agency in 2024. The investigation also identified data theft involving defense contractors and other organizations, demonstrating that the operation was not limited to unsuccessful attempts against federal networks. The distinction is important because the revised Justice Department language does not eliminate the underlying concern about Chinese cyber activity; rather, it narrows the government's public characterization of which systems were successfully penetrated. In the case of NASA, investigators determined that an attempted 2024 intrusion failed after the agency had already applied a software patch that addressed the vulnerability attackers were trying to exploit. That episode illustrates the importance of timely cybersecurity updates and vulnerability management in protecting government infrastructure. Other successful intrusions show that attackers were able to overcome defenses in some environments and obtain access to sensitive systems or information. The campaign allegedly used compromised devices and intermediary infrastructure to conceal the attackers' origins, making it more difficult for investigators to immediately determine who was behind individual intrusions. U.S. authorities have linked QTFY to a Chinese state-sponsored hacking ecosystem and have taken steps to disrupt the group's infrastructure. The seizure of the associated domains represents an effort to limit the attackers' ability to coordinate operations and use compromised systems. However, cybersecurity officials have warned that disrupting one network does not necessarily eliminate the broader threat because sophisticated state-backed groups can rebuild infrastructure, modify techniques and seek new vulnerabilities. :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "subtitle": "China Rejects U.S. Accusations",
+        "text": "Chinese officials have rejected the U.S. accusations and criticized Washington for what they described as an attempt to politicize cybersecurity issues. Beijing has repeatedly denied responsibility for cyberattacks attributed by American authorities to Chinese state-sponsored groups and has accused the United States of making allegations without sufficient evidence. The latest dispute adds another layer to already tense relations between Washington and Beijing, where cybersecurity has become a recurring source of diplomatic friction. The United States has increasingly identified Chinese-linked cyber operations as a national-security threat, particularly when attacks involve government agencies, critical infrastructure, defense contractors and technology companies. Chinese officials, meanwhile, have accused the United States of engaging in its own cyber operations and have called for greater evidence and international cooperation when governments attribute attacks. The correction of the U.S. government's earlier statements could provide additional ammunition for Chinese officials seeking to challenge Washington's characterization of the campaign. At the same time, American officials maintain that the underlying investigation uncovered substantial evidence of malicious activity and confirmed breaches at several U.S. institutions. The revised description therefore does not amount to a withdrawal of the broader accusation that QTFY conducted a significant cyber-espionage campaign. Instead, it reflects an effort by U.S. authorities to distinguish more precisely between institutions that were successfully compromised and those that were merely targeted. The episode highlights the difficulties governments face when publicly discussing sensitive cyber investigations, particularly when technical findings are still being evaluated. An inaccurate description can create confusion among the public and international partners, while overly cautious disclosures can make it harder to explain the scale of a threat. The latest clarification is likely to fuel further discussion about transparency, evidence and attribution in state-sponsored cyber incidents. :contentReference[oaicite:3]{index=3}"
+      },
+      {
+        "subtitle": "Cybersecurity Communication Under Scrutiny",
+        "text": "The reversal has also placed greater attention on the way U.S. agencies communicate information about cyberattacks. Initial claims that major institutions had been hacked can have significant consequences because they may trigger concerns about national security, sensitive government data and the resilience of critical infrastructure. When those claims are later revised to say that the organizations were targeted rather than compromised, questions naturally arise about how the original information was assessed and released. In this case, the Justice Department changed its language after the FBI affidavit provided a more detailed account of the hacking campaign and distinguished between attempted intrusions and confirmed victims. Such distinctions are routine in cybersecurity investigations, where researchers can identify scanning, exploitation attempts and malicious traffic without necessarily proving that an attacker successfully gained access. Government agencies must also balance the need to warn the public and other institutions against the risk of disclosing investigative details that could help adversaries understand how their activities were detected. The QTFY case demonstrates how quickly those challenges can become politically significant when the alleged attackers are linked to a foreign government. The initial announcement was presented as evidence of a major Chinese cyber operation against sensitive U.S. institutions, while the subsequent clarification narrowed the confirmed scope of the breaches. Nevertheless, officials continue to emphasize that the campaign represented a serious threat and that some U.S. government entities were successfully compromised. Cybersecurity experts are likely to examine the technical evidence behind the investigation, including the vulnerabilities exploited, the infrastructure used by attackers and the extent of any stolen information. For federal agencies, the episode reinforces the importance of patching software, monitoring network activity and maintaining strong defenses against persistent state-sponsored intrusion attempts. :contentReference[oaicite:4]{index=4}"
+      },
+      {
+        "subtitle": "Broader U.S.-China Cyber Tensions Continue",
+        "text": "The QTFY investigation comes amid a broader pattern of cyber tensions between the United States and China, with both governments increasingly treating digital infrastructure as an important component of national security. Washington has repeatedly accused Chinese-linked groups of conducting cyber-espionage campaigns designed to obtain government information, intellectual property and other sensitive data. Beijing has rejected many of those accusations and has in turn accused the United States of conducting cyber operations against Chinese institutions. The latest episode illustrates how difficult it can be to establish the exact scope of a sophisticated cyber campaign while an investigation is still underway. Although the U.S. government corrected its characterization of several agencies, investigators continue to describe QTFY as a significant threat that targeted a broad range of organizations over multiple years. The confirmed breaches at Department of Energy laboratories, health agencies and other institutions demonstrate that the campaign was capable of penetrating some protected networks, even if other high-profile targets successfully defended themselves. The seizure of domains connected to QScan and QTRouter is intended to disrupt the infrastructure used to facilitate those attacks, but authorities will likely continue monitoring for replacement systems and related activity. For U.S. government agencies, the episode serves as another reminder that being targeted does not necessarily mean being breached, but persistent targeting itself can expose weaknesses and create opportunities for future attacks. As Washington and Beijing continue to compete across technology, trade, military affairs and intelligence, cybersecurity is likely to remain a major area of confrontation. The latest clarification may reduce confusion over which agencies were actually compromised, but it does not remove the broader concern over persistent Chinese-linked cyber activity directed at U.S. government and critical infrastructure networks. :contentReference[oaicite:5]{index=5}"
       }
     ],
     "author": {
-      "name": "Arianna Scott",
-      "role": "Senior Editor",
-      "bio": "Arianna specializes in enterprise growth and regional market shifts.",
-      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80",
-      "slug": "arianna-scott",
-      "email": "arianna.scott@wiremingle.com"
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "British Far-Right Commentator Milo Yiannopoulos Detained by ICE",
+    "slug": "british-far-right-commentator-milo-yiannopoulos-detained-by-ice",
+    "image": "/images/milo-yiannopoulos-ice-detention.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "British political commentator Milo Yiannopoulos has been detained by U.S. Immigration and Customs Enforcement after overstaying his visa and failing to appear at an immigration hearing, according to U.S. authorities.",
+    "description": [
+      {
+        "subtitle": "Yiannopoulos Detained in Louisiana",
+        "text": "British political commentator Milo Yiannopoulos has been detained by U.S. Immigration and Customs Enforcement after being arrested at Louis Armstrong New Orleans International Airport in Louisiana. The 41-year-old is subject to a final order of removal from the United States, according to the Department of Homeland Security."
+      },
+      {
+        "subtitle": "Visa Overstay Led to Removal Order",
+        "text": "DHS said Yiannopoulos legally entered the United States through New York in May 2019 but later overstayed his authorized period of stay. An immigration judge issued a final order of removal on July 22 after Yiannopoulos failed to appear for an immigration hearing. He is expected to remain in ICE custody while removal proceedings are completed."
+      },
+      {
+        "subtitle": "No Immediate Comment From Yiannopoulos",
+        "text": "Yiannopoulos was not immediately available for comment following his detention, and it was unclear whether he had secured legal representation. Federal authorities have not indicated how quickly his removal from the United States could take place."
+      },
+      {
+        "subtitle": "Detention Draws Attention to Immigration Views",
+        "text": "The detention has attracted particular attention because Yiannopoulos has previously advocated aggressive immigration enforcement. In a 2025 social media post, he called for ICE checkpoints at locations including supermarkets and urged the immediate deportation of people unable to prove that they were legally present in the United States."
+      },
+      {
+        "subtitle": "A Controversial Political Career",
+        "text": "Yiannopoulos rose to prominence through his work with the conservative website Breitbart News and became a prominent figure in the online far-right movement. His career has been marked by controversial statements on immigration, Islam, feminism and other political issues, as well as his involvement in the Gamergate controversy."
+      },
+      {
+        "subtitle": "Ties to High-Profile Figures",
+        "text": "Yiannopoulos has maintained relationships with several controversial political and cultural figures. He has had close ties to musician Kanye West and has also worked with white nationalist Nick Fuentes. His political profile has fluctuated over the years, including periods of support for and criticism of Donald Trump."
+      },
+      {
+        "subtitle": "Deportation Proceedings Continue",
+        "text": "Yiannopoulos' detention comes as the Trump administration continues an aggressive immigration enforcement campaign across the United States. His case is now expected to proceed through the federal immigration system, with his final removal order providing the legal basis for his detention and potential deportation. :contentReference[oaicite:0]{index=0}"
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "Kalshi Cannot Block Nevada Oversight of Prediction Markets, US Appeals Court Rules",
+    "slug": "kalshi-cannot-block-nevada-oversight-prediction-markets-us-appeals-court-rules",
+    "image": "/images/kalshi-nevada-prediction-market-court-ruling.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "A U.S. appeals court has ruled that Kalshi cannot prevent Nevada regulators from overseeing its sports prediction markets, intensifying a nationwide legal battle over whether prediction markets should be regulated as financial products or gambling.",
+    "description": [
+      {
+        "subtitle": "Appeals Court Rules Against Kalshi",
+        "text": "The 9th U.S. Circuit Court of Appeals has ruled that Kalshi cannot block Nevada gaming regulators from overseeing its prediction market platform. In a unanimous 3-0 decision, the court found that Kalshi was unlikely to establish that federal commodities law prevents Nevada from applying its gambling regulations to the company's sports-related contracts. :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "subtitle": "Sports Contracts at the Center of Dispute",
+        "text": "The case concerns contracts offered by Kalshi that allow users to trade on the outcomes of sporting events. Kalshi argues that these products are federally regulated financial contracts under the Commodity Exchange Act, while Nevada regulators contend that they function as sports wagers and therefore fall under state gambling laws."
+      },
+      {
+        "subtitle": "Nevada Can Seek Gaming Oversight",
+        "text": "The ruling allows Nevada to pursue regulatory oversight of Kalshi's sports prediction markets, including requirements related to state gaming rules and licensing. The appeals court rejected Kalshi's argument that its status as a federally regulated designated contract market automatically shields it from state gambling regulation. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "subtitle": "Conflict With Earlier Court Decision",
+        "text": "The decision creates a significant split among federal appeals courts. In April, the 3rd U.S. Circuit Court of Appeals reached a different conclusion in a case involving New Jersey, ruling that the state could not regulate Kalshi's federally regulated platform. The conflicting decisions increase the possibility that the U.S. Supreme Court could eventually be asked to resolve the dispute. :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "subtitle": "CFTC Authority Under Debate",
+        "text": "The dispute also raises broader questions about the authority of the Commodity Futures Trading Commission, which oversees federally regulated derivatives markets. Kalshi and the CFTC have argued that sports event contracts fall within the federal regulatory framework, while the 9th Circuit emphasized that federal commodities legislation does not make the CFTC a nationwide gambling regulator. :contentReference[oaicite:3]{index=3}"
+      },
+      {
+        "subtitle": "Prediction Markets Face Growing Scrutiny",
+        "text": "The ruling comes as prediction markets have expanded rapidly in the United States, offering contracts linked to sports, elections, economics and other events. Their growth has prompted regulators and state governments to question whether some products should be treated as financial instruments or conventional gambling."
+      },
+      {
+        "subtitle": "Supreme Court Could Ultimately Decide",
+        "text": "The conflicting federal appeals court rulings have created uncertainty for prediction-market operators and regulators across the country. With numerous states involved in related legal disputes, the issue could ultimately reach the Supreme Court and produce a nationwide ruling on the balance between federal derivatives regulation and state gambling authority. :contentReference[oaicite:4]{index=4}"
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "Tennessee Intends to Name Nashville Airport After Dolly Parton, Governor Says",
+    "slug": "tennessee-intends-name-nashville-airport-after-dolly-parton",
+    "image": "/images/nashville-airport-dolly-parton-renaming.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "Tennessee Governor Bill Lee and Nashville International Airport officials have announced plans to rename the airport in honor of country music icon Dolly Parton, creating a lasting tribute to her influence on the state and beyond.",
+    "description": [
+      {
+        "subtitle": "Airport Renaming Plan Announced",
+        "text": "Tennessee Governor Bill Lee and Nashville International Airport officials have announced their intention to rename the airport in honor of Dolly Parton. The proposal follows an outpouring of public support for honoring the late country music legend, who died earlier this week at age 80. :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "subtitle": "Tribute to a Tennessee Icon",
+        "text": "Governor Lee said Parton's life and legacy are deeply connected to Tennessee and described the state's main international gateway as an appropriate place to recognize her contributions. Parton was born in East Tennessee and went on to become one of the world's most successful country music performers while maintaining strong ties to her home state."
+      },
+      {
+        "subtitle": "Airport Authority Must Approve Proposal",
+        "text": "The proposed name change is not yet final. The Metro Nashville Airport Authority is expected to consider the proposal and its existing naming policy at a meeting scheduled for September 17. The authority's current policy presents an additional procedural issue because it generally restricts naming properties after individuals who have been deceased for less than two years. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "subtitle": "Parton's Family Open to Discussion",
+        "text": "Parton's team has expressed appreciation for the public support and said they are open to continuing discussions about the airport tribute. Officials at Nashville International Airport have also backed the proposal, emphasizing Parton's reputation for generosity, kindness and service alongside her musical achievements. :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "subtitle": "A Legacy Beyond Music",
+        "text": "Parton's influence extends well beyond her recording career. Through the Dollywood Foundation and Imagination Library, she supported childhood literacy by providing free books to children around the world. Her philanthropic work became an important part of her public legacy and strengthened her connection with communities across Tennessee and beyond. :contentReference[oaicite:3]{index=3}"
+      },
+      {
+        "subtitle": "Global Recognition for Parton's Career",
+        "text": "Parton became an international music icon through songs including 'Jolene, Coat of Many Colors' and 'I Will Always Love You.' She sold more than 100 million records and won 11 Grammy Awards, including a Lifetime Achievement Award, establishing a career that made her one of the most recognizable figures in country music. :contentReference[oaicite:4]{index=4}"
+      },
+      {
+        "subtitle": "Nashville Gateway Could Carry Her Name",
+        "text": "If approved, the renaming would place Parton's name on one of Tennessee's most prominent transportation hubs and create a highly visible tribute for millions of travelers entering Music City. The proposal reflects the state's effort to connect its international image with one of its most influential cultural figures."
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "Trump Signs Order to Create a US Space Academy",
+    "slug": "trump-signs-order-create-us-space-academy",
+    "image": "/images/trump-us-space-academy.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "President Donald Trump has signed an executive order to begin creating a U.S. Space Academy, a new institution modeled on the country's military service academies and designed to train future leaders for the growing space sector.",
+    "description": [
+      {
+        "subtitle": "Trump Announces New Space Academy",
+        "text": "President Donald Trump has signed an executive order directing the creation of a U.S. Space Academy, a proposed institution modeled on West Point and other U.S. military service academies. Trump announced the initiative during a visit to NASA's Johnson Space Center in Houston, where he highlighted the importance of maintaining American leadership in space."
+      },
+      {
+        "subtitle": "Training Future Space Leaders",
+        "text": "The proposed academy is intended to develop a new generation of service members, engineers, scientists and civilian space professionals. The institution is expected to support the expanding needs of the U.S. Space Force and the broader commercial space industry as the country increases its ambitions for lunar and interplanetary exploration."
+      },
+      {
+        "subtitle": "Commission to Develop the Institution",
+        "text": "NASA Administrator Jared Isaacman will lead an eight-member commission tasked with advising the president on the structure and development of the academy. The commission is expected to examine issues including the institution's academic programs, organization and eventual location."
+      },
+      {
+        "subtitle": "Location Has Not Been Decided",
+        "text": "Trump has said that a location for the academy would be selected soon. During his Houston visit, he suggested that Texas could be a strong contender, although no final decision has been announced. Other locations with established space and military infrastructure could also become candidates."
+      },
+      {
+        "subtitle": "Part of Broader Space Ambitions",
+        "text": "The academy forms part of a broader U.S. strategy focused on expanding American activity in space. The administration has emphasized returning astronauts to the Moon and eventually sending crewed missions to Mars, while seeking to strengthen the country's position as competition with China in space continues."
+      },
+      {
+        "subtitle": "Moon and Mars Missions Ahead",
+        "text": "The United States is targeting an astronaut lunar landing in 2028 through the Artemis program. Trump has also discussed plans for a nuclear-powered spacecraft that could launch toward Mars in the same year. The proposed academy is intended to help create the skilled workforce needed to support these long-term ambitions."
+      },
+      {
+        "subtitle": "Funding and Implementation Challenges",
+        "text": "Despite the announcement, significant logistical and financial questions remain. Establishing a new academy would require decisions on campus construction, staffing, curriculum and student recruitment, while federal funding would need to be addressed through the congressional budget process. The initiative also comes as the U.S. space sector faces growing demand for highly skilled workers."
+      },
+      {
+        "subtitle": "Competition for Space Talent",
+        "text": "Government agencies and private aerospace companies are competing for engineers, scientists and other specialized workers as the commercial space industry expands. Supporters of the academy argue that a dedicated institution could create a long-term pipeline of talent for national space programs and strengthen U.S. capabilities in an increasingly competitive domain."
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "Prosecutors Say Seven Charged With Damaging Trump Scottish Golf Course Had 'Terrorism Connection",
+    "slug": "prosecutors-seven-charged-damaging-trump-scottish-golf-course-terrorism-connection",
+    "image": "/images/trump-scottish-golf-course-protest-terrorism-connection.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "Scottish prosecutors say seven pro-Palestinian activists accused of damaging Donald Trump's Turnberry golf resort had a 'terrorist connection,' potentially exposing them to harsher sentences if convicted.",
+    "description": [
+      {
+        "subtitle": "Seven Activists Face Criminal Damage Charges",
+        "text": "Seven members of the now-banned Palestine Action group have been charged over damage caused to Donald Trump's Turnberry golf resort in Ayrshire, Scotland. Prosecutors allege that the defendants damaged the golf course and clubhouse during a protest in March 2025, including by digging up turf, spraying weedkiller and painting political slogans on the property. :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "subtitle": "Prosecutors Allege Terrorism Connection",
+        "text": "The defendants have not been formally charged with terrorism. However, prosecutors have alleged that the criminal damage was 'aggravated by reason of having a terrorist connection.' If they are convicted, that aggravating factor could result in tougher sentences under Scottish law. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "subtitle": "Political Slogans Painted Across Course",
+        "text": "According to the indictment, the activists allegedly painted slogans including 'Free Gaza' and 'Gaza is not for sale' on parts of the golf resort. Prosecutors also allege that turf was dug up, weedkiller was applied to fairways and greens, and parts of the property's sprinkler system were damaged. :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "subtitle": "Palestine Action Designation at Center of Case",
+        "text": "The terrorism-related allegation is connected to the defendants' alleged association with Palestine Action, which the United Kingdom designated as a terrorist organization in 2025. The designation has become the subject of a wider legal and political dispute, with supporters of the group arguing that terrorism legislation should not be applied to protest and direct-action campaigns. :contentReference[oaicite:3]{index=3}"
+      },
+      {
+        "subtitle": "Defendants Face Additional Allegations",
+        "text": "Three of the seven defendants also face allegations of attempting to obstruct justice by using vehicles with false registration plates. The case is being treated as a significant test of how Scottish prosecutors apply terrorism-related aggravating factors to criminal damage allegations involving political protest. :contentReference[oaicite:4]{index=4}"
+      },
+      {
+        "subtitle": "Court Proceedings Ahead",
+        "text": "The defendants are due to appear before the Scottish courts as the case moves forward. The allegations have generated renewed debate over the boundary between political protest, property damage and terrorism legislation, while the defendants remain entitled to the presumption of innocence unless proven guilty in court. :contentReference[oaicite:5]{index=5}"
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "CFTC Fines Former White House Aide $172,000 for Trading on Trump Speech Information",
+    "slug": "cftc-fines-former-white-house-aide-trading-trump-speech-information",
+    "image": "/images/cftc-former-white-house-aide-trump-speech-trading.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "The U.S. Commodity Futures Trading Commission has ordered former White House teleprompter operator Gabriel Perez to pay $172,539 after finding that he used advance access to President Donald Trump's speeches to make profitable trades on a prediction market.",
+    "description": [
+      {
+        "subtitle": "CFTC Imposes $172,539 Penalty",
+        "text": "The U.S. Commodity Futures Trading Commission has ordered former White House teleprompter operator Gabriel Perez to pay $172,539 to resolve allegations that he used nonpublic information from President Donald Trump's speeches to make trades on the prediction market Kalshi. The settlement requires Perez to repay $107,539.02 in profits and pay a $65,000 civil monetary penalty. :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "subtitle": "Trading Based on Advance Speech Access",
+        "text": "According to the CFTC's findings, Perez used his advance access to prepared presidential remarks to trade contracts that paid out depending on whether specific words or phrases appeared in Trump's speeches. The activity took place between December 2025 and February 2026, allowing him to use information that was not yet publicly available. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "subtitle": "Three-Year Trading Ban",
+        "text": "As part of the settlement, Perez agreed to a three-year ban from trading and to cease further violations of the Commodity Exchange Act and CFTC regulations. The regulator said the civil penalty was reduced because of Perez's cooperation with the investigation. :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "subtitle": "Kalshi Flagged Suspicious Activity",
+        "text": "The trades took place on Kalshi, a prediction-market platform that offers contracts tied to specific events and statements. The platform identified suspicious activity through its customer onboarding and surveillance systems and referred the matter to the CFTC. KalshiEX also assisted regulators during the investigation. :contentReference[oaicite:3]{index=3}"
+      },
+      {
+        "subtitle": "White House Employment Ended",
+        "text": "Perez was placed on unpaid leave after the trading activity came under scrutiny and is no longer employed by the federal government. The White House previously said that the conduct was inappropriate and that Perez would no longer work there. :contentReference[oaicite:4]{index=4}"
+      },
+      {
+        "subtitle": "Growing Scrutiny of Prediction Markets",
+        "text": "The case comes as U.S. regulators increasingly examine the risks of insider trading and manipulation on prediction markets. Contracts based on specific words or phrases in speeches can create particular risks for people who have advance access to prepared remarks, raising questions about how financial-market rules should apply to rapidly expanding event-contract platforms. :contentReference[oaicite:5]{index=5}"
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "US Judge Questions but Won't Yet Block Trump's New Birthright Citizenship Order",
+    "slug": "us-judge-questions-wont-yet-block-trump-new-birthright-citizenship-order",
+    "image": "/images/trump-birthright-citizenship-court.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "A federal judge has questioned the legality of President Donald Trump's latest order restricting birthright citizenship but declined to immediately block its enforcement, setting the stage for another major legal challenge over citizenship rights.",
+    "description": [
+      {
+        "subtitle": "Judge Questions New Citizenship Order",
+        "text": "A U.S. federal judge has raised serious questions about President Donald Trump's latest executive order restricting birthright citizenship but declined to immediately stop the administration from enforcing it. The decision leaves the new policy facing an uncertain legal future while allowing the administration's position to remain temporarily intact."
+      },
+      {
+        "subtitle": "New Order Follows Supreme Court Ruling",
+        "text": "Trump issued the new order after the Supreme Court rejected his earlier attempt to broadly restrict birthright citizenship. The latest directive focuses on narrower circumstances involving children born in the United States, including cases involving certain foreign government employees, alleged fraud and individuals classified by the administration as alien enemies. :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "subtitle": "Procedural Issue Prevents Immediate Block",
+        "text": "U.S. District Judge Deborah Boardman declined to immediately block the new order because the lawsuit before her had not yet been updated to specifically challenge the 2026 directive. She indicated that the plaintiffs could supplement their complaint and pursue an expedited challenge to the new policy. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "subtitle": "Constitutional Questions Remain",
+        "text": "The judge questioned whether the administration can use an executive order to create new exceptions to birthright citizenship. The dispute centers on the Citizenship Clause of the 14th Amendment and the long-standing principle that people born in the United States generally acquire U.S. citizenship at birth."
+      },
+      {
+        "subtitle": "Immigration Groups Prepare Legal Challenge",
+        "text": "Immigrant rights organizations and other advocacy groups are seeking to challenge the new order in court. They argue that the president cannot unilaterally narrow constitutional citizenship protections through executive action and are expected to press for judicial intervention as the case moves forward."
+      },
+      {
+        "subtitle": "Administration Defends Executive Authority",
+        "text": "The Trump administration has defended the new policy and argued that its narrower approach addresses circumstances that it believes fall outside traditional birthright citizenship protections. Government attorneys are expected to provide additional implementation details as the legal challenge develops. :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "subtitle": "Legal Battle Could Have Broad Consequences",
+        "text": "The case could become another major test of presidential authority over immigration and the constitutional limits of executive power. A future ruling could determine whether the administration's revised approach survives judicial review and could shape the legal status of thousands of children born in the United States."
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "Trump Loses Bid to Move Already-Decided Criminal Hush Money Case to US Court",
+    "slug": "trump-loses-bid-move-decided-criminal-hush-money-case-us-court",
+    "image": "/images/trump-hush-money-case-us-court.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "Donald Trump has suffered another legal setback after a court rejected his effort to move his already-decided New York criminal hush money case into federal court, leaving the state-court proceedings and conviction at the center of his ongoing legal battle.",
+    "description": [
+      {
+        "subtitle": "Court Rejects Trump's Transfer Bid",
+        "text": "Donald Trump has lost an effort to move his criminal hush money case from New York state court to federal court. The ruling represents another setback in Trump's broader legal strategy and leaves the case under the jurisdiction where it was originally prosecuted."
+      },
+      {
+        "subtitle": "Case Was Already Decided",
+        "text": "The legal dispute stems from the criminal case involving payments made before the 2016 presidential election. Trump was found guilty in the case, making his attempt to transfer the proceedings particularly significant because the underlying criminal trial had already been completed."
+      },
+      {
+        "subtitle": "Trump's Lawyers Sought Federal Review",
+        "text": "Trump's legal team has argued that the case involves issues connected to his federal political activities and his position as president. The effort to move the proceedings was part of a broader strategy seeking federal-court consideration of arguments surrounding presidential authority and the prosecution."
+      },
+      {
+        "subtitle": "State and Federal Jurisdiction at Issue",
+        "text": "The dispute highlights the complex legal questions surrounding the boundaries between state and federal courts. Trump's attorneys have sought to invoke federal protections and presidential considerations, while prosecutors have maintained that the criminal case belongs in the state judicial system."
+      },
+      {
+        "subtitle": "Broader Legal Consequences",
+        "text": "The ruling could affect how Trump's remaining challenges to the case proceed. It also illustrates the continuing legal battles surrounding the former president's criminal proceedings, particularly questions involving presidential immunity, jurisdiction and the authority of state prosecutors."
+      },
+      {
+        "subtitle": "Appeal Remains Possible",
+        "text": "Trump's legal team could continue pursuing available appeals and other challenges depending on the court's ruling and applicable procedures. The case is expected to remain under close scrutiny as courts consider the competing arguments over jurisdiction and the legal protections available to a sitting or former president."
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "California Sues Trump Administration Over Offshore Wind Lease Cancellation",
+    "slug": "california-sues-trump-administration-over-offshore-wind-lease-cancellation",
+    "image": "/images/california-offshore-wind-lease-lawsuit.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "California has sued the Trump administration over the cancellation of an offshore wind lease, escalating a legal and political dispute over federal energy policy, renewable power development and the future of offshore wind projects along the U.S. West Coast.",
+    "description": [
+      {
+        "subtitle": "California Challenges Federal Decision",
+        "text": "California has launched a legal challenge against the Trump administration over the cancellation of an offshore wind lease, arguing that the federal decision could undermine the state's efforts to expand renewable energy and develop new sources of electricity. The lawsuit adds to growing tensions between California and Washington over energy and environmental policy."
+      },
+      {
+        "subtitle": "Offshore Wind at the Center of Dispute",
+        "text": "The dispute centers on federal offshore wind development and the government's authority to cancel or modify leases issued for renewable energy projects. California officials have argued that offshore wind could play an important role in diversifying the state's energy supply and meeting long-term electricity needs."
+      },
+      {
+        "subtitle": "Trump Administration Defends Energy Policy",
+        "text": "The Trump administration has pursued an energy policy that places greater emphasis on conventional energy resources while questioning aspects of offshore wind development. Federal officials have raised concerns involving project costs, environmental impacts, reliability and the broader economic consequences of expanding offshore wind."
+      },
+      {
+        "subtitle": "California Raises Legal and Economic Concerns",
+        "text": "California's lawsuit seeks to challenge the federal government's action and protect the state's ability to pursue offshore renewable energy projects. State officials have warned that cancelling leases could create uncertainty for developers, investors and businesses that have committed resources to the emerging offshore wind industry."
+      },
+      {
+        "subtitle": "Implications for Renewable Energy",
+        "text": "The case could have consequences beyond the individual lease. A court decision could influence how federal authorities manage offshore renewable energy projects and determine the limits of federal discretion over previously issued leases. Developers and investors are watching the litigation closely as they assess the regulatory environment for future projects."
+      },
+      {
+        "subtitle": "Legal Battle Could Shape U.S. Energy Policy",
+        "text": "The lawsuit reflects a wider national debate over the future of renewable energy, federal regulatory authority and the role of offshore wind in the U.S. power system. As the case moves through the courts, its outcome could affect future investments in offshore wind and deepen the policy divide between California and the federal government."
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "Walmart Settles US Government's Opioid Lawsuit, Which Sought Billions, for $50 Million",
+    "slug": "walmart-settles-us-government-opioid-lawsuit-50-million",
+    "image": "/images/walmart-us-government-opioid-lawsuit-settlement.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "Walmart has agreed to pay $50 million to settle a U.S. government lawsuit over alleged failures in its pharmacy operations involving controlled substances, resolving a case in which the government had sought billions of dollars.",
+    "description": [
+      {
+        "subtitle": "Walmart Reaches $50 Million Settlement",
+        "text": "Walmart has agreed to pay $50 million to settle a lawsuit brought by the U.S. government over allegations concerning its handling of opioid prescriptions and other controlled substances. The settlement resolves a case in which federal authorities had sought billions of dollars in damages and penalties."
+      },
+      {
+        "subtitle": "Government Allegations",
+        "text": "The U.S. government accused Walmart and its pharmacy operations of failing to properly identify and respond to potentially suspicious opioid prescriptions. Federal authorities argued that inadequate controls contributed to the improper dispensing of controlled substances and weakened safeguards designed to prevent abuse."
+      },
+      {
+        "subtitle": "Walmart Disputes Wrongdoing",
+        "text": "Walmart has disputed the government's allegations and maintained that its pharmacists and pharmacy systems operate under strict controls. The company agreed to the settlement to resolve the litigation without admitting liability, allowing the dispute to conclude without a prolonged court battle."
+      },
+      {
+        "subtitle": "Broader Opioid Accountability Effort",
+        "text": "The settlement comes amid years of federal and state efforts to hold pharmaceutical companies, distributors, pharmacies and other participants in the healthcare supply chain accountable for their roles in the opioid crisis. Government agencies have pursued substantial financial penalties and operational reforms as part of broader efforts to strengthen controls over controlled substances."
+      },
+      {
+        "subtitle": "Pharmacy Compliance Under Scrutiny",
+        "text": "The case highlights the compliance responsibilities facing large pharmacy operators. Retail pharmacies must maintain systems for identifying suspicious prescriptions, monitoring controlled-substance orders and complying with federal requirements. Failures in those systems can expose companies to significant regulatory and legal risks."
+      },
+      {
+        "subtitle": "Settlement Ends Major Legal Dispute",
+        "text": "The $50 million agreement brings an end to the federal government's lawsuit against Walmart while avoiding the uncertainty and expense of continued litigation. The case nevertheless underscores the continuing scrutiny of major retailers and healthcare companies as authorities seek stronger safeguards against prescription-drug misuse."
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "Judge Deals Blow to Trump Moves to Deport Pro-Palestinian Activists",
+    "slug": "judge-deals-blow-trump-moves-deport-pro-palestinian-activists",
+    "image": "/images/judge-trump-pro-palestinian-activists.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "A U.S. judge has dealt a setback to the Trump administration's efforts to deport pro-Palestinian activists, raising fresh legal questions over immigration enforcement, free speech and the rights of noncitizens involved in political demonstrations.",
+    "description": [
+      {
+        "subtitle": "Court Challenges Deportation Efforts",
+        "text": "A federal judge has issued a setback to the Trump administration's efforts to deport pro-Palestinian activists, adding another legal challenge to the administration's broader immigration enforcement campaign. The ruling has drawn attention to the balance between immigration authority and constitutional protections for political expression."
+      },
+      {
+        "subtitle": "Free Speech at the Center",
+        "text": "Attorneys representing the activists have argued that participation in pro-Palestinian demonstrations and political advocacy should not, by itself, serve as grounds for removal from the United States. Civil liberties groups have similarly warned that immigration enforcement could have a chilling effect on lawful political speech and protest."
+      },
+      {
+        "subtitle": "Administration Defends Enforcement Policy",
+        "text": "The Trump administration has maintained that federal authorities have broad powers to enforce immigration laws and address conduct that officials consider grounds for removal. Government lawyers are expected to continue defending the deportation measures as legal and consistent with national security and immigration policy."
+      },
+      {
+        "subtitle": "Legal Battle Could Continue",
+        "text": "The judge's decision is unlikely to settle the wider dispute, with additional litigation expected as both sides challenge the government's authority and the protections available to the activists. The outcome could have implications for future immigration cases involving political demonstrations and advocacy."
+      },
+      {
+        "subtitle": "Immigration and Civil Rights Debate",
+        "text": "The case has become part of a broader national debate over immigration enforcement, protest rights and the limits of executive power. Supporters of the administration's approach say immigration laws must be enforced consistently, while opponents argue that deportation powers should not be used to punish protected political expression."
+      },
+      {
+        "subtitle": "Attention Turns to the Courts",
+        "text": "The dispute is now likely to remain in the federal courts as judges consider the legal boundaries surrounding immigration enforcement and political activity. The proceedings could establish important precedents for how the government handles noncitizens involved in controversial demonstrations and political movements."
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
+    }
+  },
+  {
+    "category": "us",
+    "title": "Trump Vows Legal Order to Break Up 'Nasty Monopoly' in Food Processing",
+    "slug": "trump-vows-legal-order-break-up-nasty-monopoly-food-processing",
+    "image": "/images/trump-food-processing-monopoly.webp",
+    "date": "August. 29, 2026",
+    "shortdescription": "President Donald Trump has pledged to pursue legal action aimed at breaking up what he described as a 'nasty monopoly' in the food-processing industry, as concerns over market concentration and food prices remain a major political issue.",
+    "description": [
+      {
+        "subtitle": "Trump Targets Food Processing Concentration",
+        "text": "President Donald Trump has vowed to take legal action against what he characterizes as excessive concentration in the U.S. food-processing industry. The announcement puts renewed focus on the structure of the food supply chain and the influence of large companies over prices, production and distribution."
+      },
+      {
+        "subtitle": "Focus on Competition",
+        "text": "Trump's proposal centers on increasing competition within an industry where a relatively small number of major companies control significant portions of processing and distribution in several food categories. Supporters of stronger antitrust enforcement argue that greater competition could give producers and consumers more alternatives."
+      },
+      {
+        "subtitle": "Potential Legal Challenges",
+        "text": "Any attempt to break up a major food-processing company would likely face significant legal and regulatory hurdles. Antitrust actions generally require government agencies to demonstrate that corporate practices or market concentration violate competition laws, meaning a proposed breakup could become the subject of lengthy investigations and court proceedings."
+      },
+      {
+        "subtitle": "Food Prices Remain a Political Concern",
+        "text": "Food affordability has remained a prominent issue for American households, with consumers closely watching the prices of meat, dairy products, packaged foods and other staples. Trump has linked stronger competition in the food sector to efforts to address costs and improve conditions for consumers and agricultural producers."
+      },
+      {
+        "subtitle": "Impact on Farmers and Producers",
+        "text": "The debate also extends to farmers and independent food producers, who have long raised concerns about their bargaining power when selling to large processors and distributors. Supporters of antitrust measures say reducing concentration could strengthen competition for agricultural products and potentially improve market opportunities for smaller producers."
+      },
+      {
+        "subtitle": "Industry Awaits Details",
+        "text": "The scope and timing of any legal order remain important questions for businesses and investors. Companies operating in the food-processing sector are likely to closely monitor any regulatory action, while markets will assess whether proposed measures could affect corporate structures, supply chains and future investment decisions."
+      }
+    ],
+    "author": {
+      "name": "Nathaniel Brooks",
+      "role": "National & US News Correspondent",
+      "bio": "Tracks domestic policy, federal courts, infrastructure, and major economic shifts across the United States.",
+      "image": "/images/author-nathaniel-brooks.jpg",
+      "slug": "nathaniel-brooks",
+      "email": "nathaniel.brooks@tangentweekly.com"
     }
   }
 ]

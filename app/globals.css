@@ -375,7 +375,7 @@ img {
   border: none;
   color: #171717;
   cursor: pointer;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 4px;
   padding: 4px;
@@ -2468,7 +2468,7 @@ img {
 .fn-cat-featured-lead-img {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 480px;
   overflow: hidden;
   border-radius: 8px;
   flex-shrink: 0;
@@ -2478,6 +2478,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -3045,7 +3046,7 @@ img {
   color: var(--red);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .fn-art-title {
@@ -3054,7 +3055,7 @@ img {
   line-height: 1.18;
   letter-spacing: -0.025em;
   color: var(--ink-black);
-  margin-bottom: 14px;
+  margin-bottom: 8px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -3063,7 +3064,7 @@ img {
   color: #475569;
   line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -3215,9 +3216,9 @@ img {
 
 .fn-art-paragraph {
   font-size: 15.5px;
-  line-height: 1.65;
+  line-height: 1.45;
   color: #334155;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -3636,7 +3637,7 @@ img {
   /* ── CATEGORY PAGE ── */
   .fn-cat-hero-wrapper { padding: 28px 0 20px 0; margin-bottom: 24px; }
   .fn-cat-featured-wrapper { grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 36px; }
-  .fn-cat-featured-lead-img { height: 260px; }
+  .fn-cat-featured-lead-img { height: 320px; }
   .fn-cat-stack-img { height: 140px; }
   .fn-cat-grid-layout { grid-template-columns: 1fr; gap: 0; margin-bottom: 50px; }
   .fn-cat-sidebar { display: none; }
@@ -3815,7 +3816,7 @@ img {
   /* ── CATEGORY PAGE ── */
   .fn-cat-hero-wrapper { padding: 24px 0 16px 0; margin-bottom: 20px; }
   .fn-cat-featured-wrapper { grid-template-columns: 1fr; gap: 24px; margin-bottom: 30px; }
-  .fn-cat-featured-lead-img { height: 300px; }
+  .fn-cat-featured-lead-img { height: 340px; }
   .fn-cat-lead-title { font-size: 22px; }
   .fn-cat-featured-stack { border-left: none; padding-left: 0; border-top: 1px solid var(--border-color); padding-top: 20px; }
   .fn-cat-spotlight-img { width: 120px; height: 90px; }
@@ -3826,8 +3827,8 @@ img {
 
   /* ── ARTICLE DETAIL ── */
   .fn-art-container { padding: 32px 14px 60px 14px; }
-  .fn-art-title { font-size: 26px; line-height: 1.2; }
-  .fn-art-subtitle { font-size: 15px; }
+  .fn-art-title { font-size: 24px !important; line-height: 1.25 !important; }
+  .fn-art-subtitle { font-size: 14.5px !important; line-height: 1.5 !important; }
   .fn-art-meta-row { flex-direction: column; align-items: flex-start; gap: 12px; }
   .fn-art-meta-details {
     display: flex;
@@ -4178,6 +4179,8 @@ img {
     padding: 6px 14px;
   }
 
+  .fn-art-title { font-size: 21px !important; line-height: 1.28 !important; }
+  .fn-art-subtitle { font-size: 13.5px !important; line-height: 1.5 !important; }
   .fn-art-hero-img-new { height: 280px; max-height: 320px; border-radius: 6px; margin-bottom: 8px; }
   .fn-art-caption-new { font-size: 10.5px; margin-bottom: 20px; }
   .fn-art-section-heading { font-size: 16.5px; margin: 24px 0 10px 0; }
@@ -4734,3 +4737,76 @@ img {
 }
 
 
+
+/* ----------------------------------------------------------------
+   BLANCHE FEATURED BANNER — Homepage Middle Section
+---------------------------------------------------------------- */
+.fn-blanche-banner {
+  border-top: 2px solid var(--red, #c0392b);
+  border-bottom: 1px solid #e5e7eb;
+  background: #fafafa;
+  padding: 40px 0;
+  margin: 0 0 40px 0;
+}
+.fn-blanche-banner-inner {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 36px;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.fn-blanche-banner-img-wrap {
+  display: block;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 16/10;
+  flex-shrink: 0;
+}
+.fn-blanche-banner-img-wrap img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.4s ease; display: block;
+}
+.fn-blanche-banner-img-wrap:hover img { transform: scale(1.03); }
+.fn-blanche-banner-content { display: flex; flex-direction: column; gap: 12px; }
+.fn-blanche-banner-kicker {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
+  color: var(--red, #c0392b); text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.fn-blanche-banner-dot {
+  display: inline-block; width: 6px; height: 6px;
+  border-radius: 50%; background: var(--red, #c0392b); flex-shrink: 0;
+}
+.fn-blanche-banner-title {
+  font-size: 26px; font-weight: 700; line-height: 1.28;
+  color: #0f172a; font-family: Georgia, 'Times New Roman', serif;
+  margin: 0; transition: color 0.2s;
+}
+.fn-blanche-banner-title:hover { cursor: pointer; }
+.fn-blanche-banner-desc {
+  font-size: 15px; line-height: 1.65; color: #475569;
+  margin: 0; font-family: Georgia, 'Times New Roman', serif;
+}
+.fn-blanche-banner-meta {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; color: #94a3b8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.fn-blanche-banner-tag { font-weight: 600; color: #64748b; }
+.fn-blanche-banner-sep { color: #cbd5e1; }
+.fn-blanche-banner-cta {
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 4px;
+  font-size: 13px; font-weight: 700; letter-spacing: 0.04em;
+  color: var(--red, #c0392b); text-decoration: none; text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  transition: gap 0.2s ease;
+}
+.fn-blanche-banner-cta:hover { gap: 10px; text-decoration: none; }
+@media (max-width: 860px) {
+  .fn-blanche-banner-inner { grid-template-columns: 1fr; }
+  .fn-blanche-banner-img-wrap { aspect-ratio: 16/9; }
+  .fn-blanche-banner-title { font-size: 22px; }
+}

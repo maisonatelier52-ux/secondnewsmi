@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — SecNewsM",
-  description: "Understand how SecNewsM collects, uses, protects, and respects your personal data under GDPR, CCPA, and global privacy laws.",
+  title: "Privacy Policy — Tangent Weekly",
+  description: "Understand how Tangent Weekly collects, uses, protects, and respects your personal data under GDPR, CCPA, and global privacy laws.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
               <div>
                 <h1 className="fn-static-title">Privacy Policy & Data Protection</h1>
                 <p className="fn-static-subtitle">
-                  SecNewsM respects your privacy. This policy outlines the types of personal information we collect, how it is secured, and how you can exercise your rights under GDPR and CCPA frameworks.
+                  Tangent Weekly respects your privacy. This policy outlines the types of personal information we collect, how it is secured, and how you can exercise your rights under GDPR and CCPA frameworks.
                 </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function PrivacyPolicyPage() {
                 <h2 className="fn-static-section-title">
                   <span className="fn-static-section-num">02</span> How We Use Your Data
                 </h2>
-                <p>SecNewsM uses collected information strictly for operational and editorial purposes:</p>
+                <p>Tangent Weekly uses collected information strictly for operational and editorial purposes:</p>
                 <div className="fn-static-box">
                   <ul style={{ fontSize: "13.5px", color: "#404040", paddingLeft: "18px", lineHeight: "1.7" }}>
                     <li>Delivering daily briefings and breaking news notifications requested by you.</li>
@@ -116,7 +116,7 @@ export default function PrivacyPolicyPage() {
                   <div className="fn-static-card">
                     <h3 className="fn-static-card-title">Right to Access & Export</h3>
                     <p style={{ fontSize: "13px", color: "#525252" }}>
-                      Request a copy of all personal data held by SecNewsM in a portable format.
+                      Request a copy of all personal data held by Tangent Weekly in a portable format.
                     </p>
                   </div>
                   <div className="fn-static-card">
@@ -137,7 +137,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <div className="fn-static-card" style={{ marginTop: "14px" }}>
                   <div style={{ fontWeight: "700", color: "#171717" }}>Data Protection Officer</div>
-                  <div style={{ color: "#dc2626", fontWeight: "600", marginTop: "4px" }}>privacy@secnewsm.com</div>
+                  <div style={{ color: "#dc2626", fontWeight: "600", marginTop: "4px" }}>privacy@tangentweekly.com</div>
                 </div>
               </section>
             </div>
